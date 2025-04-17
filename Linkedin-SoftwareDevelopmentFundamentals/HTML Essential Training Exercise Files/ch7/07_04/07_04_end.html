@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ch 7: Forms</title>
+  <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+  <!-- 07_04 end -->
+  <form action="submit.html" method="GET">
+    <h2>Create an account</h2>
+    <div>
+      <label for="email">Email</label> 
+      <input id="email" name="email" type="email" 
+             required placeholder="email@example.com"
+             pattern="[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]+">
+    </div>
+    <div>
+      <label for="password">Password</label> 
+      <input id="password" name="password" type="password"
+             required placeholder="8 character minimum"
+             minlength="8">
+    </div>
+    <button type="submit">Create account</button>
+  </form>
+  
+</body>
+</html>
