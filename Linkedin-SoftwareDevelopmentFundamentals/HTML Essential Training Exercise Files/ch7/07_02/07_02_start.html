@@ -4,13 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ch 7: Forms</title>
-  <!-- <link rel="stylesheet" href="forms.css"> -->
+  <link rel="stylesheet" href="forms.css">
 </head>
 <body>
   <form action="submit.html" method="GET">
-    <label>Email</label> <input name="email">
-    <label>Password</label> <input name="password">
-    <button>Create account</button>
+    <h2>Create an Account</h2>
+    <div>
+      <label for="email">Email</label> 
+      <input id="email" name="email" type="email"
+             required placeholder="email@example.com"
+             pattern="[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]+">>
+    </div>
+    <div>
+      <label for="password">Password</label> 
+      <input id="password" name="password" type="password"
+             required placeholder="8 chararacters minimum"
+             minlength="8">
+    </div>
+    <div>
+      <input type="checkbox" id="newsletter" name="newsletter"
+             name="newsletter" value="subscribe" checked>
+      <label for="newsletter">Yes!  Send me tips.</label>
+    </div>
+    <!-- multiple checkboxes -->
+  <fieldset>
+    <legend>Choose your topics</legend>
+    <div>
+      <input type="checkbox" id="coding" 
+            name="topic" value="coding">
+      <label for="coding">Coding</label>
+    </div>
+    <div>
+      <input type="checkbox" id="tools" 
+            name="topic" value="tools">
+      <label for="tools">Tools and software</label>
+    </div>
+    <div>
+      <input type="checkbox" id="productivity" 
+            name="topic" value="productivity">
+      <label for="productivity">Productivity</label>
+    </div>
+  </fieldset>
+
+  <!-- multiple radios -->
+  <fieldset> 
+    <legend>Choose your frequency</legend>
+    <div>
+      <input type="radio" id="weekly" 
+            name="frequency" value="weekly">
+      <label for="weekly">Weekly</label>
+    </div>
+    <div>
+      <input type="radio" id="monthly" 
+            name="frequency" value="monthly">
+      <label for="monthly">Monthly</label>
+    </div>
+  </fieldset>
+    <button type="submit"> Create account</button>
   </form>
 
 </body>
