@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Program Flow/Conditional-if/Conditionals.csproj": {}
+    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Program Flow/Conditional-if/Conditionals.csproj": {}
   },
   "projects": {
-    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Program Flow/Conditional-if/Conditionals.csproj": {
+    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Program Flow/Conditional-if/Conditionals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Program Flow/Conditional-if/Conditionals.csproj",
+        "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Program Flow/Conditional-if/Conditionals.csproj",
         "projectName": "Conditionals",
-        "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Program Flow/Conditional-if/Conditionals.csproj",
+        "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Program Flow/Conditional-if/Conditionals.csproj",
         "packagesPath": "/home/desktop/.nuget/packages/",
-        "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Program Flow/Conditional-if/obj/",
+        "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Program Flow/Conditional-if/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/desktop/.nuget/NuGet/NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Program Flow/Conditional-switch/ConditionalOps.csproj": {}
+    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Program Flow/Conditional-switch/ConditionalOps.csproj": {}
   },
   "projects": {
-    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Program Flow/Conditional-switch/ConditionalOps.csproj": {
+    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Program Flow/Conditional-switch/ConditionalOps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Program Flow/Conditional-switch/ConditionalOps.csproj",
+        "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Program Flow/Conditional-switch/ConditionalOps.csproj",
         "projectName": "ConditionalOps",
-        "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Program Flow/Conditional-switch/ConditionalOps.csproj",
+        "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Program Flow/Conditional-switch/ConditionalOps.csproj",
         "packagesPath": "/home/desktop/.nuget/packages/",
-        "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Program Flow/Conditional-switch/obj/",
+        "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Program Flow/Conditional-switch/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/desktop/.nuget/NuGet/NuGet.Config"
