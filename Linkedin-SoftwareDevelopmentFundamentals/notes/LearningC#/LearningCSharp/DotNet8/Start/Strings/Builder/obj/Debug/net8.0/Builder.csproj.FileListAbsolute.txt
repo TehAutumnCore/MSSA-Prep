@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/bin/Debug/net8.0/Builder
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/bin/Debug/net8.0/Builder.deps.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/bin/Debug/net8.0/Builder.runtimeconfig.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/bin/Debug/net8.0/Builder.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/bin/Debug/net8.0/Builder.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/obj/Debug/net8.0/Builder.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/obj/Debug/net8.0/Builder.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/obj/Debug/net8.0/Builder.AssemblyInfo.cs
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/obj/Debug/net8.0/Builder.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/obj/Debug/net8.0/Builder.sourcelink.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/obj/Debug/net8.0/Builder.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/obj/Debug/net8.0/refint/Builder.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/obj/Debug/net8.0/Builder.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/obj/Debug/net8.0/Builder.genruntimeconfig.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Builder/obj/Debug/net8.0/ref/Builder.dll

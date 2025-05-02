@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Strings/Parsing/Parsing.csproj": {}
+    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/Parsing.csproj": {}
   },
   "projects": {
-    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Strings/Parsing/Parsing.csproj": {
+    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/Parsing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Strings/Parsing/Parsing.csproj",
+        "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/Parsing.csproj",
         "projectName": "Parsing",
-        "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Strings/Parsing/Parsing.csproj",
+        "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/Parsing.csproj",
         "packagesPath": "/home/desktop/.nuget/packages/",
-        "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Strings/Parsing/obj/",
+        "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/desktop/.nuget/NuGet/NuGet.Config"

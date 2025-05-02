@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/bin/Debug/net8.0/Parsing
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/bin/Debug/net8.0/Parsing.deps.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/bin/Debug/net8.0/Parsing.runtimeconfig.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/bin/Debug/net8.0/Parsing.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/bin/Debug/net8.0/Parsing.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/obj/Debug/net8.0/Parsing.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/obj/Debug/net8.0/Parsing.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/obj/Debug/net8.0/Parsing.AssemblyInfo.cs
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/obj/Debug/net8.0/Parsing.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/obj/Debug/net8.0/Parsing.sourcelink.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/obj/Debug/net8.0/Parsing.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/obj/Debug/net8.0/refint/Parsing.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/obj/Debug/net8.0/Parsing.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/obj/Debug/net8.0/Parsing.genruntimeconfig.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Strings/Parsing/obj/Debug/net8.0/ref/Parsing.dll
