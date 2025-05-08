@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/Modifiers/Modifiers.csproj": {}
+    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/Modifiers.csproj": {}
   },
   "projects": {
-    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/Modifiers/Modifiers.csproj": {
+    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/Modifiers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/Modifiers/Modifiers.csproj",
+        "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/Modifiers.csproj",
         "projectName": "Modifiers",
-        "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/Modifiers/Modifiers.csproj",
+        "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/Modifiers.csproj",
         "packagesPath": "/home/desktop/.nuget/packages/",
-        "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/Modifiers/obj/",
+        "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/desktop/.nuget/NuGet/NuGet.Config"

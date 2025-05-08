@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/bin/Debug/net8.0/Modifiers
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/bin/Debug/net8.0/Modifiers.deps.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/bin/Debug/net8.0/Modifiers.runtimeconfig.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/bin/Debug/net8.0/Modifiers.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/bin/Debug/net8.0/Modifiers.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/obj/Debug/net8.0/Modifiers.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/obj/Debug/net8.0/Modifiers.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/obj/Debug/net8.0/Modifiers.AssemblyInfo.cs
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/obj/Debug/net8.0/Modifiers.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/obj/Debug/net8.0/Modifiers.sourcelink.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/obj/Debug/net8.0/Modifiers.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/obj/Debug/net8.0/refint/Modifiers.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/obj/Debug/net8.0/Modifiers.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/obj/Debug/net8.0/Modifiers.genruntimeconfig.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Modifiers/obj/Debug/net8.0/ref/Modifiers.dll

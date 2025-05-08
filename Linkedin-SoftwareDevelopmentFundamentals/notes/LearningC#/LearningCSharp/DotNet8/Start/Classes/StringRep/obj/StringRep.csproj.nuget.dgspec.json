@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/StringRep/StringRep.csproj": {}
+    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/StringRep/StringRep.csproj": {}
   },
   "projects": {
-    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/StringRep/StringRep.csproj": {
+    "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/StringRep/StringRep.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/StringRep/StringRep.csproj",
+        "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/StringRep/StringRep.csproj",
         "projectName": "StringRep",
-        "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/StringRep/StringRep.csproj",
+        "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/StringRep/StringRep.csproj",
         "packagesPath": "/home/desktop/.nuget/packages/",
-        "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/StringRep/obj/",
+        "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/StringRep/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/desktop/.nuget/NuGet/NuGet.Config"

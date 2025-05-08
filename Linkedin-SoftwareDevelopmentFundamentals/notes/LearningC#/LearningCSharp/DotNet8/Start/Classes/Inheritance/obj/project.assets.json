@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/Inheritance/Inheritance.csproj",
+      "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Inheritance/Inheritance.csproj",
       "projectName": "Inheritance",
-      "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/Inheritance/Inheritance.csproj",
+      "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Inheritance/Inheritance.csproj",
       "packagesPath": "/home/desktop/.nuget/packages/",
-      "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/Inheritance/obj/",
+      "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Inheritance/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/desktop/.nuget/NuGet/NuGet.Config"

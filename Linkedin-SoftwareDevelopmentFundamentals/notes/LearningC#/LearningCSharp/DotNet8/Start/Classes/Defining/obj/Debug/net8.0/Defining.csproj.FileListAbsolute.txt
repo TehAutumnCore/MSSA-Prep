@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/obj/Debug/net8.0/Defining.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/obj/Debug/net8.0/Defining.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/obj/Debug/net8.0/Defining.AssemblyInfo.cs
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/obj/Debug/net8.0/Defining.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/obj/Debug/net8.0/Defining.sourcelink.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/bin/Debug/net8.0/Defining
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/bin/Debug/net8.0/Defining.deps.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/bin/Debug/net8.0/Defining.runtimeconfig.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/bin/Debug/net8.0/Defining.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/bin/Debug/net8.0/Defining.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/obj/Debug/net8.0/Defining.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/obj/Debug/net8.0/refint/Defining.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/obj/Debug/net8.0/Defining.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/obj/Debug/net8.0/Defining.genruntimeconfig.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Defining/obj/Debug/net8.0/ref/Defining.dll

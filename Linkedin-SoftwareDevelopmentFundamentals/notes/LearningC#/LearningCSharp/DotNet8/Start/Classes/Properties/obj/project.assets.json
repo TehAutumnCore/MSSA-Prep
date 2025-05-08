@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/Properties/Properties.csproj",
+      "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/Properties.csproj",
       "projectName": "Properties",
-      "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/Properties/Properties.csproj",
+      "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/Properties.csproj",
       "packagesPath": "/home/desktop/.nuget/packages/",
-      "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet7/Start/Classes/Properties/obj/",
+      "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/desktop/.nuget/NuGet/NuGet.Config"

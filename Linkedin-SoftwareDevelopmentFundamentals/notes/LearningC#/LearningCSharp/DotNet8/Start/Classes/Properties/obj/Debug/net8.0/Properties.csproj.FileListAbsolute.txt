@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/obj/Debug/net8.0/Properties.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/obj/Debug/net8.0/Properties.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/obj/Debug/net8.0/Properties.AssemblyInfo.cs
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/obj/Debug/net8.0/Properties.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/obj/Debug/net8.0/Properties.sourcelink.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/bin/Debug/net8.0/Properties
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/bin/Debug/net8.0/Properties.deps.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/bin/Debug/net8.0/Properties.runtimeconfig.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/bin/Debug/net8.0/Properties.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/bin/Debug/net8.0/Properties.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/obj/Debug/net8.0/Properties.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/obj/Debug/net8.0/refint/Properties.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/obj/Debug/net8.0/Properties.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/obj/Debug/net8.0/Properties.genruntimeconfig.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/LearningCSharp/DotNet8/Start/Classes/Properties/obj/Debug/net8.0/ref/Properties.dll
