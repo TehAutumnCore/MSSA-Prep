@@ -39,5 +39,4 @@
 int firstValue = 500;
 int secondValue = 600;
 int largerValue; 
-
 Console.WriteLine(Math.Max(firstValue,secondValue));

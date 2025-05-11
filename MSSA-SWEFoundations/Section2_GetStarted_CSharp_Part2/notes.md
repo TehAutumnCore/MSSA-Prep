@@ -112,3 +112,104 @@ could have also done
 largerValue = Math.Max(firstValue,secondValue);
 Console.WriteLine(largerValue);
  -->
+
+ ## Create Decision Logic with if statements
+ if Statements in C#
+Used to control program flow based on conditions.
+Executes a block of code only if a Boolean expression evaluates to true.
+Commonly used with comparison and logical operators.
+Dice Game Logic
+Three dice are rolled, each returning a value between 1 and 6.
+The total score is the sum of the three dice.
+Bonuses are applied:
+Two matching dice add a small bonus.
+Three matching dice add a larger bonus.
+If the final score meets or exceeds a threshold, the player wins.
+Key Techniques
+Use of conditional statements to apply game rules.
+Boolean logic to detect matching dice.
+Decision-making based on calculated outcomes.
+ Other simple Boolean expressions can be created by using operators to compare two values. Operators include:
+
+==, the "equals" operator, to test for equality
+>, the "greater than" operator, to test that the value on the left is greater than the value on the right
+<, the "less than" operator, to test that the value on the left is less than the value on the right
+>=, the "greater than or equal to" operator
+<=, the "less than or equal to" operator
+
+C# Game with Decision Logic (If Statements)
+Overview
+This project demonstrates the use of decision logic in C# using if, else, and else if statements. The primary goal is to implement a game that simulates rolling three six-sided dice, calculating the score, and determining the outcome based on defined rules.
+
+Features
+Dice Rolling: The game generates three random dice rolls using Random.Next() and calculates the total.
+Winning/Losing Logic: If the total score from the dice rolls is greater than or equal to 15, the player wins. Otherwise, they lose.
+Bonus Points:
+Doubles: If any two dice show the same value, the player gets a 2-point bonus.
+Triples: If all three dice show the same value, the player receives a 6-point bonus.
+Game Rules
+Objective: Roll three dice, sum the values, and apply any bonuses (doubles or triples).
+Win Condition: A score of 15 or more results in a win.
+Loss Condition: A score less than 15 results in a loss.
+Bonus:
+Rolling two dice of the same value (doubles) adds 2 points.
+Rolling all three dice of the same value (triples) adds 6 points.
+Getting Started
+Setup: Create a C# console application using Visual Studio Code.
+Code Logic:
+Use System.Random to simulate the dice rolls.
+Use if statements to evaluate the total score and check for bonus conditions like doubles and triples.
+Code Breakdown
+Random Dice Rolls: Random dice = new Random();
+Calculating Total: int total = roll1 + roll2 + roll3;
+Decision Making:
+Use if to determine if the player wins or loses based on the total score.
+Check for doubles using if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3)).
+Check for triples with if ((roll1 == roll2) && (roll2 == roll3)).
+
+## Creating nested decision logic with if, else if, and else
+Purpose
+This module covers control flow using conditional statements in C#, focusing on writing expressive logic using if, else, else if, and nesting. The goal is to improve code clarity, reduce redundancy, and handle mutually exclusive conditions correctly.
+
+Definitions
+if: Executes a code block if a Boolean condition is true.
+else: Executes a code block if the preceding if condition is false.
+else if: Tests a new condition if the previous if or else if condition is false.
+nested if: An if or else block placed inside another if block to handle dependent logic.
+Boolean expression: A condition that evaluates to true or false.
+
+Core Concepts
+
+Use if + else Instead of Two if Statements
+When conditions are logical opposites (e.g., total >= 15 and total < 15), replace two if statements with if followed by else to simplify logic and avoid redundant comparisons.
+
+Avoid Stacking Bonuses by Nesting Conditions
+To prevent both doubles and triples bonuses from applying simultaneously, use a nested if inside an outer if. Check for triples first inside the doubles condition. This ensures mutually exclusive bonus logic.
+
+Testing Logic with Hardcoded Values
+Temporarily assign values to roll variables (e.g., roll1 = 6; roll2 = 6; roll3 = 5) to test specific outcomes. This avoids repeated random executions and ensures predictable testing.
+
+Replace Binary Win/Lose with Multi-Prize Logic
+Convert a simple win/lose game to a prize system:
+
+total >= 16: win a car
+total >= 10: win a laptop
+total == 7: win a trip
+
+otherwise: win a kitten
+Use if, else if, else to ensure only one prize is awarded per run.
+
+Decision Chain Principles
+Use if + else when only two mutually exclusive outcomes exist.
+Use if + multiple else if + else when multiple exclusive outcomes exist.
+Only the first true condition's block is executed in an if–else if–else chain.
+else is optional but must be the last block if used.
+Nested if statements allow for tiered logic evaluation when one condition depends on another.
+
+Best Practices
+Simplify logic by avoiding repeated conditions.
+Use nesting only when necessary for dependent logic.
+Use else if chains to express exclusive paths clearly.
+Use descriptive messages and test each path with controlled input for clarity and reliability.
+
+##

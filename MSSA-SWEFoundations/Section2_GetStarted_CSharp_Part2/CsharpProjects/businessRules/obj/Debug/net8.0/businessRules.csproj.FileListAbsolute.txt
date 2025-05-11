@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/bin/Debug/net8.0/businessRules
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/bin/Debug/net8.0/businessRules.deps.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/bin/Debug/net8.0/businessRules.runtimeconfig.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/bin/Debug/net8.0/businessRules.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/bin/Debug/net8.0/businessRules.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/obj/Debug/net8.0/businessRules.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/obj/Debug/net8.0/businessRules.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/obj/Debug/net8.0/businessRules.AssemblyInfo.cs
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/obj/Debug/net8.0/businessRules.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/obj/Debug/net8.0/businessRules.sourcelink.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/obj/Debug/net8.0/businessRules.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/obj/Debug/net8.0/refint/businessRules.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/obj/Debug/net8.0/businessRules.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/obj/Debug/net8.0/businessRules.genruntimeconfig.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/businessRules/obj/Debug/net8.0/ref/businessRules.dll
