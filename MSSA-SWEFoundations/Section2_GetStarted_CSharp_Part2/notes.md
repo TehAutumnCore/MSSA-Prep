@@ -212,4 +212,17 @@ Use nesting only when necessary for dependent logic.
 Use else if chains to express exclusive paths clearly.
 Use descriptive messages and test each path with controlled input for clarity and reliability.
 
-##
+## Store and iterate through sequences using Arrays and the foreach statement in C#
+An array is a collection of elements of the same data type, stored in a single variable. The elements are accessed via a zero-based index.
+
+Key Concepts:
+Declaration: Syntax for declaring arrays requires the data type and the number of elements (e.g., string[] arrayName = new string[3];).
+Accessing Elements: Elements are accessed using an index. Indexing starts at 0.
+Assigning Values: Values are assigned to array elements using the index (e.g., arrayName[0] = "A123";).
+Bounds Checking: Arrays are zero-based, so accessing an out-of-bounds index causes an error (IndexOutOfRangeException).
+Reassigning Values: Array elements can be reassigned like regular variables.
+Initialization: Arrays can be initialized during declaration using either {} or the collection expression [].
+Length Property: The Length property can be used to find the number of elements in an array, starting at 1.
+
+Common Errors:
+IndexOutOfRangeException: Occurs when accessing an index that exceeds the array's bounds.

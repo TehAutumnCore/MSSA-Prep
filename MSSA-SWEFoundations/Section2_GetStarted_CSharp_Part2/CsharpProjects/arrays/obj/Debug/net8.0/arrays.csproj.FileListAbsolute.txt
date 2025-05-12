@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/bin/Debug/net8.0/arrays
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/bin/Debug/net8.0/arrays.deps.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/bin/Debug/net8.0/arrays.runtimeconfig.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/bin/Debug/net8.0/arrays.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/bin/Debug/net8.0/arrays.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/obj/Debug/net8.0/arrays.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/obj/Debug/net8.0/arrays.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/obj/Debug/net8.0/arrays.AssemblyInfo.cs
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/obj/Debug/net8.0/arrays.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/obj/Debug/net8.0/arrays.sourcelink.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/obj/Debug/net8.0/arrays.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/obj/Debug/net8.0/refint/arrays.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/obj/Debug/net8.0/arrays.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/obj/Debug/net8.0/arrays.genruntimeconfig.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/arrays/obj/Debug/net8.0/ref/arrays.dll
