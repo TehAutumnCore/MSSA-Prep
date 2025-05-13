@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/bin/Debug/net8.0/Challenge-Project-foreach-if-array
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/bin/Debug/net8.0/Challenge-Project-foreach-if-array.deps.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/bin/Debug/net8.0/Challenge-Project-foreach-if-array.runtimeconfig.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/bin/Debug/net8.0/Challenge-Project-foreach-if-array.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/bin/Debug/net8.0/Challenge-Project-foreach-if-array.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/obj/Debug/net8.0/Challenge-Project-foreach-if-array.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/obj/Debug/net8.0/Challenge-Project-foreach-if-array.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/obj/Debug/net8.0/Challenge-Project-foreach-if-array.AssemblyInfo.cs
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/obj/Debug/net8.0/Challenge-Project-foreach-if-array.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/obj/Debug/net8.0/Challenge-Project-foreach-if-array.sourcelink.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/obj/Debug/net8.0/Challenge-Project-foreach-if-array.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/obj/Debug/net8.0/refint/Challenge-Project-foreach-if-array.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/obj/Debug/net8.0/Challenge-Project-foreach-if-array.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/obj/Debug/net8.0/Challenge-Project-foreach-if-array.genruntimeconfig.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section2_GetStarted_CSharp_Part2/CsharpProjects/Challenge-Project-foreach-if-array/obj/Debug/net8.0/ref/Challenge-Project-foreach-if-array.dll

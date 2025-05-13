@@ -3,29 +3,19 @@
 ## Call methods from the .Net class library using C#
 <!-- Creating a new application -->
 At the Terminal command prompt, to create a new console application in a specified folder, type dotnet new console -o ./CsharpProjects/TestProject
-
 NET Class Library – Summary Notes
 The .NET Class Library is a large collection of reusable classes and methods provided by Microsoft.
-
 It supports many types of applications: console, web, desktop, mobile, cloud, and database.
-
 Key Concepts:
 Classes group related methods (e.g., System.Console contains WriteLine(), ReadLine(), etc.).
-
 Simplifies programming by providing prebuilt functionality.
-
 Data types like string and int are also classes in the library, with useful built-in methods (e.g., ToUpper(), Length).
-
 Finding What You Need:
 Use Microsoft’s official documentation.
-
 Search online using blogs, forums, and examples.
-
 Practice through projects to get familiar with commonly used classes and methods.
-
 Takeaways:
 You only need to learn the parts relevant to your project.
-
 Developers rely on documentation and community resources to explore and understand the library.
 
 ## Call the methods of a .NET Class
@@ -226,3 +216,22 @@ Length Property: The Length property can be used to find the number of elements 
 
 Common Errors:
 IndexOutOfRangeException: Occurs when accessing an index that exceeds the array's bounds.
+
+## Create readable code with conventions, whitespace, and comments in c#
+C# Variable Naming Rules:
+Can contain letters, digits, underscores.
+Must start with a letter or underscore.
+Cannot start with a number.
+Cannot be a C# keyword.
+Case-sensitive.
+C# Naming Conventions:
+Use camel case: start lowercase, capitalize new words (e.g., userOption).
+Be descriptive: name reflects data meaning, not type.
+Use full words: avoid contractions or abbreviations.
+Do not include data type in the name.
+
+Example Valid Names:
+userOption
+gameScore
+particlesPerMillion
+processedCustomer

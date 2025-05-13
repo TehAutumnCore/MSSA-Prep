@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Develop_foreach_and_if-elseif-else_structures_to_process_array_data_in_c#/1.0.0": {
+        "runtime": {
+          "Develop_foreach_and_if-elseif-else_structures_to_process_array_data_in_c#.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Develop_foreach_and_if-elseif-else_structures_to_process_array_data_in_c#/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
