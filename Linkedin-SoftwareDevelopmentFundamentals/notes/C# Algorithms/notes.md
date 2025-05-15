@@ -216,8 +216,6 @@ public class Answer
 }
 
 
-
-
 ```
 # Linked List Algorithms
 ## What is a Linked List?
