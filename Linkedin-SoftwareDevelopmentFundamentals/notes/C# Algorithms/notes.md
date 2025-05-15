@@ -137,3 +137,87 @@ public static string ReverseEachWord(string sentence) {
     return reversedSentence;
 }
 ```
+
+# Array Algorithms
+## Linear search arrays in C#
+Linear Search: A sequential search method where each item in the array is checked one by one to find the target item.
+Return Types: The algorithm can return a Boolean(true/false) or the item itself, with options to use a sentinel value or null for not found cases.
+Built-in Functions: The Array.Find and Array.FindAll methods can be used to search for items in an array based on specified conditions.
+
+Searching through data structures is a common task in software development. 
+Input: the dataset and the item to search for
+Output: true/false or the item itself.
+
+## Binary Search Arrays in C#
+Binary Search: A divide and conquer algorithm where in each step it halves the number of elements it has to search through.
+Consider 0,2,8,19,45,75
+Looking for 45, we would start at index 3; 19. and since 19 is less than the target it would continue the search to the right half.
+..., 23,45,79
+
+Linear Search: No assumptions, O(n) time
+Binary Search: sorted assumption, O(log(n)) time
+
+## Aggregate and filter arrays in C#
+Aggregation and filtering: Combining two or more datasets into a single dataset and filtering out data that does not meet specific requirements.
+    1. Merge arrays and then remove invalid items.
+    2. Check each element and only keep valid items.
+    3. Sort each array and take only valid items.
+Implementation: Using a foreach loop to iterate through arrays and add even numbers to an ArrayList, which is then converted to an int array.
+Time Complexity: Different Algorithms have varying time complexities based on the input data, and assumptions about the data can impact the algorithm's implementation.
+
+## Reverse an array in C#
+Two methods to reverse an array:
+    -Creating a new Array: Copy the contents of the input array into a new array in reverse order
+    -In-Place Reversal: Modify the input array directly by swapping elements from the front and back.
+Algorithm Efficiency:
+    -New Array Method: Iterates through the entire array.
+    -In-Place Method: Only iterates through half of the array, making it more efficient.
+Handling Edge Cases: Considerations for arrays with odd numbers of elements and ensuring the middle element remains in place.
+
+## Code Challenge: Rotate an Array
+```csharp
+// C# code​​​​​​‌‌​‌​‌​‌​‌‌​​​​​‌‌​​‌‌​​‌ below
+using System;
+using System.Linq;
+// Write your answer here, and then test your code.
+// Your job is to implement the RotateArray() method.
+
+public class Answer
+{
+
+    // Change these Boolean values to control whether you see 
+    // the expected result and/or hints.
+   public static Boolean ShowExpectedResult = true;
+   public static Boolean ShowHints = false;
+
+    // Return a new array with the input array's contents rotated
+    // to the left by one
+    public static int[] RotateArray(int[] numbers)
+    {
+        int temp = numbers[0];
+
+        for(int i = 0; i < numbers.Length - 1; i++) {
+            numbers[i] = numbers[i+1];
+        }
+        numbers[numbers.Length-1] = temp;
+        
+        return numbers;
+    }
+
+    public static int[] RotateArrayRight(int[] numbers) {
+        int temp = numbers[numbers.Length-1] //Saving the last element to prevent out of bound error
+
+        for(int i=numbers.Length-1; i > 0; i--) {
+            numbers[i] = numbers[i-1]; //shift elements to the right, starting from the second to last, down to the first
+        }
+    }
+        numbers[0] =temp; //place the last element at the front
+        return numbers;
+}
+
+
+
+
+```
+# Linked List Algorithms
+## What is a Linked List?
