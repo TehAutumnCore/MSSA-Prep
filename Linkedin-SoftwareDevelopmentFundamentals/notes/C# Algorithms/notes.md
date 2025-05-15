@@ -217,5 +217,36 @@ public class Answer
 
 
 ```
+Apply learning through leetcode
+Arrays
+    -Valid Parentheses (stack to validate matching pairs)
+    <!-- -Valid Anagram (check if strings are anagrams) -->
+    <!-- -Palindrome Check (is the string a palindrome?) — simple two-pointer method -->
+
+Normalize Strings / Parse & Search
+    -Implement strStr() (search substring in a string)
+    -Roman to Integer (parse and convert)
+    -Count and Say (generate a string by describing previous string)
+
+Reversing Strings
+    -Reverse String (in-place reverse)
+    -Reverse Words in a String (reverse word order, or reverse each word)
+    -Longest Palindromic Substring (expand from center)
+
+Linear Search & Binary Search
+    -Binary Search (classic on sorted arrays)
+    -Search Insert Position (find insert point)
+    -First Bad Version (binary search on a function)
+
+Aggregating & Filtering Arrays
+    -Remove Duplicates from Sorted Array (in-place filtering)
+    -Move Zeroes (aggregate non-zero elements)
+    -Intersection of Two Arrays II (filter with counts)
+
+Reversing & Rotating Arrays
+    -Rotate Array (rotate array k steps to the right)
+    -Reverse Words in a String II (in-place reverse words in char array)
+
+
 # Linked List Algorithms
 ## What is a Linked List?
