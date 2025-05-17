@@ -328,3 +328,77 @@ public class Answer
 FIFO Policy: A queue follows the First In First Out (FIFO) principle, meaning the first element added is the first one to be removed.
 Enqueuing and Dequeuing: Items are added to the back of the queue(enqueuing) and removed from the front (dequeuing). You cannot add or remove items from the middle.
 Accessing Elements: You can only access the item at the front of the queue directly. To access items further back, you must dequeue the items in front of it.
+    enqueue
+    dequeue
+    peek
+
+## Standard queue operations in C#
+Queue Creation: Use the queue constructor from the System.Collections.Generic namespace to create a queue that can hold elements of any specified type.
+Enqueue and Dequeue: Use the Enqueue method to add elements to the queue and Dequeue method to remove the first element, following the First-In First-Out(FIFO) policy.
+Peek and TryDequeue: The Peek method allows you to view the first element without removing it, while TryDeQueue attempts to dequeue an element and returns true if successful., helping to avoid exceptions when the queue is empty.
+
+## Queue Algorithms: Generate binary numbers
+Binary Number Generation: The algorithm takes an integer N as input and prints the first N binary numbers in numerical order.
+Queue Utilization: A queue is used to efficiently generate and print binary numbers by leveraging the FIFO pattern.
+Pattern Recognitiion: The algorithm prints a number, then appends 0 and 1 to it, enqueues these new numbers, and continues until N numbers are printed.
+
+## What is a Stack?
+Stack Structure: A stack is an ordered collection of items that follows a Last-in First Out(LIFO) policy, meaning the last item added is the first one removed. 
+Operations: The primary operations are push(adding an item to the top) and pop(removing the top item)
+Use Case: Stacks are useful for algorithms that need to keep track of state, such as the runtime stack that manages function calls and nested functions in a program.
+
+## Stack Algorithms: Theroizing an algorithm
+Next Greater Element: The video explaisn how to find the next greater element for each element in an array using a stack. If no greater element exists, the value is set to -1.
+Stack Usage: The stack is used to keep track of elements as you iterate through the array, allowing efficient matching of elements with their next greater element.
+Efficiency: This approach eensures that the array is only iterated once, resulting in a linear time complexity, making the algorithm efficient.
+
+Challenge: Print the next greater element for every element in the array
+//Note: The next greater element is the first larger element on the right side of the array.
+/*
+Summary: We iterate through the array, trying to find the next greater element for the item on top of the stack. 
+The stack contains the items we've already seen in the array.
+When we've reached the end of the array, each item that's still in the stack must have the next greater element of -1
+
+Linear Time Complexity
+*/
+
+
+input: {5,6,3,50}
+
+Output: 
+    5 -> 6
+    6 -> 50
+    3 -> 50
+    50 -> -1
+
+input: {15,8,4,10}
+
+Output: 
+    15 -> -1
+    8 -> 10
+    4 -> 10
+    10 -> -1
+
+## Stack Algorithms: Implementing next greater element
+Algorithm Implementation: The video demonstrates how to implement the next greater element algorithm in C# using a stack to keep track of elements.
+Stack Operations: The algorithm involves pushing elements onto the stack, popping elements to find the next greater element, and using a while loop to handle multiple elements.
+Efficiency: The stack helps efficiently manage and find the next greater element for each item in the array, ensuring a linear time complexity.
+
+## Stack Algorithms: Matching Parentheses
+Stack Usage: The stack data structure is used to keep track of opening parentheses When a closing Parenthesis is encountered, the stack is popped to check for a match.
+Algorithm Efficiency: The algorithm ensures that each opening parenthesis, and it runs in linear time with constant space when using an integer track for a single type of symbol.
+Simplified Implementation: For a single type of symbol (parentheses), the stack can be replaced with an integer tracker to make the algorithm more efficient and easier to read.
+
+Challenge: Determine whether a given piece of text has matching parentheses
+Matching:
+    ((hello()))
+    ()(hello())
+    ((hello))
+    (hello)
+Not Matching
+    (hello(
+    )hello)
+    )hello(
+    hello((
+    (hello
+    ((hello

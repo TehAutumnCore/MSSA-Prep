@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ttxb7TyOt9w=",
+  "success": true,
+  "projectFilePath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/04 Queue and Stack Algorithms/04_03/start/Algorithms/Algorithms.csproj",
+  "expectedPackageFiles": [
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.15/microsoft.netcore.app.host.linux-x64.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
