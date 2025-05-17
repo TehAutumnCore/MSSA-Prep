@@ -234,7 +234,7 @@ Reversing Strings
     -Longest Palindromic Substring (expand from center)
 
 Linear Search & Binary Search
-    -Binary Search (classic on sorted arrays)
+    <!-- -Binary Search (classic on sorted arrays) -->
     -Search Insert Position (find insert point)
     -First Bad Version (binary search on a function)
 
@@ -250,3 +250,81 @@ Reversing & Rotating Arrays
 
 # Linked List Algorithms
 ## What is a Linked List?
+Structure: A linked list is a linear data structure where elements, called nodes, are linked using pointers. Each node contains data and a pointer to the next node.
+Flexibility: Unlike arrays, linked lists do not store elements in contiguous memory locations, allowing for dynamic resizing and efficient insertions/deletions.
+Components: The first node is called the head, and the last node is the tail, which points to null, indicating the end of the list. 
+Advantages: Linked lists are useful for operations that involve frequent data modifications, as they allow for efficient insertion and deletion of elements without the need for resizing or shifting elements.
+
+head            tail
+5 -> 8 -> 10 -> 13 -> null
+5 -> 8 -> null <!--will unlink the back half of the dataset--> 
+
+## Common Linked list operation in C#
+Creating a Linked List: You can create a linkedlist in C# using the LinkedList<type> from the System.Collections.Generic namespace. This type is generic and can hold various data type including custom objects.
+Adding and Removing Data: You can add data to the linked list using methods like RemoveFirst, RemoveLast, or Remove for specific items.
+Built-in Operations: The linked list provides built-in methods such as Contains to c heck if an item exists in the list and Count to get the number of items in teh list.
+Simplified Interface: The built-in LinkedList class abstracts the complexity of nodes and pointers, allow you to focus on the data rather than the underlying implementation
+
+## Linked list Algorithms
+Custom Linked List Creation: You can create your own linked list class in c# with a head attribute and a nested node class, each node having data and a reference to the next node.
+Iterating through a linked list: Use a loop with a current variable to traverse the linked list, ensuring to check for null nodes to avoid exeptions.
+Deleting the back Half of a Linked List: Implement an algorithm using two pointers(slow and fast) to find the middle of the list, then set the previous node's next reference to null to delete the back half.
+
+Original: 5 -> 8 -> 10 -> 13 -> null
+Modified: 5 -> 8 -> null
+
+## Code Challenge: Sum contents of a linked list
+```Csharp
+/*
+Sum Contents of a linked list.
+*/
+// C# code​​​​​​‌‌​‌​‌​‌‌​​‌​‌​‌​​​‌‌‌‌​‌ below
+using System;
+using System.Linq;
+// Write your answer here, and then test your code.
+// Your job is to implement the sum() method.
+
+public class Answer
+{
+
+    // Change these Boolean values to control whether you see 
+    // the expected result and/or hints.
+   public static Boolean ShowExpectedResult = false;
+   public static Boolean ShowHints = false;
+
+   public class ListNode
+   {
+        public int val;
+        public ListNode next;
+
+        public ListNode(int val)
+        {
+            this.val = val;
+            this.next = null;
+        }
+
+        public override string ToString()
+        {
+            return val.ToString();
+        }
+   }
+
+    // Return the sum of the contents in the linked list
+    public static int Sum(ListNode head)
+    {
+        int total = 0;
+        ListNode current = head;
+        while (current != null) {
+            total += current.val;
+            current = current.next;
+        }
+        return total;
+    }
+}
+```
+
+# Queue and Stack Algorithms
+## What is a queue?
+FIFO Policy: A queue follows the First In First Out (FIFO) principle, meaning the first element added is the first one to be removed.
+Enqueuing and Dequeuing: Items are added to the back of the queue(enqueuing) and removed from the front (dequeuing). You cannot add or remove items from the middle.
+Accessing Elements: You can only access the item at the front of the queue directly. To access items further back, you must dequeue the items in front of it.

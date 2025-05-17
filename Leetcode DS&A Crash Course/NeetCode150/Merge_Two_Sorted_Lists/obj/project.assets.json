@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/03 Linked List Algorithms/03_02/start/Algorithms/Algorithms.csproj",
-      "projectName": "Algorithms",
-      "projectPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/03 Linked List Algorithms/03_02/start/Algorithms/Algorithms.csproj",
+      "projectUniqueName": "/home/desktop/MSSA-prep/Leetcode DS&A Crash Course/NeetCode150/Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.csproj",
+      "projectName": "Merge_Two_Sorted_Lists",
+      "projectPath": "/home/desktop/MSSA-prep/Leetcode DS&A Crash Course/NeetCode150/Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.csproj",
       "packagesPath": "/home/desktop/.nuget/packages/",
-      "outputPath": "/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/03 Linked List Algorithms/03_02/start/Algorithms/obj/",
+      "outputPath": "/home/desktop/MSSA-prep/Leetcode DS&A Crash Course/NeetCode150/Merge_Two_Sorted_Lists/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/desktop/.nuget/NuGet/NuGet.Config"
