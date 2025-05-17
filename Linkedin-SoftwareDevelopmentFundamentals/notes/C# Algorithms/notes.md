@@ -402,3 +402,83 @@ Not Matching
     hello((
     (hello
     ((hello
+# Code Challenge: Evaluate reverse Polish notation
+```Csharp
+//Time Complexity: O(n)
+//Space Complexity: O(n)
+
+// C# code​​​​​​‌‌​‌​‌​‌‌​​‌‌​‌​​​‌‌‌​‌‌‌ below
+using System;
+using System.Linq;
+using System.Collections.Generic;
+// Write your answer here, and then test your code.
+// Your job is to implement the EvaluateRPN() method.
+
+public class Answer {
+
+    // Change these Boolean values to control whether you see 
+    // the expected result and/or hints.
+   public  static Boolean ShowExpectedResult = false;
+   public  static Boolean ShowHints = true;
+
+    public static bool IsNumber(string token)
+    {
+        try
+        {
+            double.Parse(token);
+            return true;
+        }
+        catch (FormatException)
+        {
+            return false;
+        }
+    }
+
+    public static bool IsOperator(string token)
+    {
+        return "+-*/".Contains(token);
+    }
+
+    public static double PerformOperation(string @operator, double operand1, double operand2)
+    {
+        switch (@operator)
+        {
+            case "+":
+                return operand1 + operand2;
+            case "-":
+                return operand1 - operand2;
+            case "*":
+                return operand1 * operand2;
+            case "/":
+                if (operand2 == 0)
+                {
+                    throw new DivideByZeroException("Division by zero is not allowed.");
+                }
+                return operand1 / operand2;
+            default:
+                throw new ArgumentException("Invalid operator: " + @operator);
+        }
+    }
+
+     // Return the result of the Reverse Polish notation expression
+    public static double EvaluateRPN(string expression) { //evaluates a string of Reverse Polish Notation(RPN) and return a double result
+        string[] tokens = expression.Split(' '); //splits the input string into an array of tokens(numbers and operators), based on spaces
+        Stack <double> stack = new(); //initalizes a stack to store numbers during the evaluation, will hold operands until an operator is applied
+
+        foreach(string token in tokens) { //loop through each token in the RPN expression
+            if(IsNumber(token)) { //if the token is a number
+                stack.Push(double.Parse(token)); //parse it to a double and push it onto the stack, these are the future operands
+            }
+            else if(IsOperator(token)) { //if its an operator pop the last two numbers from the stack ex: 5 3 -
+                double operand2 = stack.Pop(); //pops the second operand from the stack 3
+                double operand1 = stack.Pop(); //pops the first operand from the stack 5
+                double result = PerformOperation(token,operand1,operand2); //peforms the operation between the two operands.
+                stack.Push(result); //push the result back on the stack so it can be used in the future
+            }
+        }
+            return stack.Pop(); //Once all the tokens are processed, the stack should have one number left - the final result.
+    }
+}
+
+
+```
