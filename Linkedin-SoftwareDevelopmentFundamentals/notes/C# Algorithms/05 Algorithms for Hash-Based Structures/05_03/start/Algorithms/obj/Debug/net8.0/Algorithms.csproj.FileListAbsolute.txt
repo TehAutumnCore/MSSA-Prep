@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/obj/Debug/net8.0/Algorithms.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/obj/Debug/net8.0/Algorithms.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/obj/Debug/net8.0/Algorithms.AssemblyInfo.cs
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/obj/Debug/net8.0/Algorithms.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/obj/Debug/net8.0/Algorithms.sourcelink.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/bin/Debug/net8.0/Algorithms
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/bin/Debug/net8.0/Algorithms.deps.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/bin/Debug/net8.0/Algorithms.runtimeconfig.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/bin/Debug/net8.0/Algorithms.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/bin/Debug/net8.0/Algorithms.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/obj/Debug/net8.0/Algorithms.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/obj/Debug/net8.0/refint/Algorithms.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/obj/Debug/net8.0/Algorithms.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/obj/Debug/net8.0/Algorithms.genruntimeconfig.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/C# Algorithms/05 Algorithms for Hash-Based Structures/05_03/start/Algorithms/obj/Debug/net8.0/ref/Algorithms.dll

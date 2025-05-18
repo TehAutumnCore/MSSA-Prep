@@ -402,7 +402,7 @@ Not Matching
     hello((
     (hello
     ((hello
-# Code Challenge: Evaluate reverse Polish notation
+## Code Challenge: Evaluate reverse Polish notation
 ```Csharp
 //Time Complexity: O(n)
 //Space Complexity: O(n)
@@ -479,6 +479,118 @@ public class Answer {
             return stack.Pop(); //Once all the tokens are processed, the stack should have one number left - the final result.
     }
 }
-
-
 ```
+
+# Algorithms for Hash
+## Hash-Based structures in C#
+HashSet: A collection of unique items where the order of items is not relevent. It is useful for keeping track of a unique list of items, such as validating vendor codes quickly.
+    collection of unordered collection of unique items 
+    ex: Unique Vendor Codes:
+        "TRJ or KPE"
+Dictionary: Stores key-value pairs and is useful for looking up information using an identifier like an employee ID. It adds type safety and maintains the order of stored values.
+Generic Collection, Type safetey, invalid key results in error, thread safe only for public static members (usually recommended over hashtable because of type safety)
+    Example: Store Each Employee value by id (key)
+        Gary: 0123
+        Friend: 4567
+        friend2: 8900
+HashTable: Similar to Dictionary but does not require specifying the type of key or value. It returns null for non-existent keys and is thread-safe, but does not maintain th order of stored values.
+NonGeneric, no type safety, invalid key results in null, thread safe
+
+## Dictionary and HashSet operations in C#
+Dictionary: Used to store key-value pairs, making it efficient to retreive data using a unique key. The TryGetValue method helps check if a key exists and retreive its value.
+HashSet: Ideal for storing unique items where order doesn't matter. It allows quick checks to see if an item is part of the set using the Contains Method. 
+Efficiency: Both structures optimize data retreival by assuming uniqueness--keys in dictionarys and values in HashSet--speeding up algorithm performance.
+
+## Leverage the HashSet type in C# algorithms
+Membership Check: The HashSet is used to determine if elements from one array are present in another array, focusing on membership without concern for order.
+Efficiency: By leveraging the uniqueness of items in a HashSet, the algorithm can perform membership checks in constant time, making it efficient
+Implementation: The video demonstrates creating an algorithm that uses a HashSet to find elements in the first array that are not in the second array, iterating through both arrays and using the HashSet.Contains method.
+
+Challenge: Find items present in the first array, but not the second array.
+
+{3,2,8,4,5}
+{5,7,3,0,2}
+This is a question of membership.
+
+## Use the Dictionary Type in C# algorithms
+Key-Value Pairs: The dictionary type in C# uses key-value pairs to store data, where each key is unique, and the value represents the data associated with that key. 
+Element Frequency: The video demonstrates using a Dictionary to count the frequency of elements in an unsorted array, making it easy to track and display how many times each element appears.
+Efficient Data Management: By leveraging the Dictionary type, you can efficiently manage and retreive data based on unique keys, optimizing your algorithm's performance.
+
+Challenge:
+Display the count of each element in an unsorted array
+<key = element, value= count of element>{5,7,3,0,2}
+
+
+## Code Challenge: Detect a cyclic linkedlist
+```Csharp
+// C# code​​​​​​‌‌​‌​‌​‌‌​‌​​​‌‌​‌​‌‌​‌‌‌ below
+
+//Time Complexity: O(n) because I have to potentially traverse every node
+//Space Complexity O(1) because it only uses constant memory
+
+
+using System;
+using System.Linq;
+using System.Collections.Generic;
+// Write your answer here, and then test your code.
+// Your job is to implement the hasCycle() method.
+
+public class Answer {
+
+    // Change these Boolean values to control whether you see 
+    // the expected result and/or hints.
+   public static Boolean ShowExpectedResult = false;
+   public static Boolean ShowHints = false;
+   
+   public class ListNode
+   {
+       public int Val;
+       public ListNode Next;
+
+        public ListNode(int val) {
+            this.Val = val;
+            this.Next = null;
+        }
+    }
+
+    // Return true or false depending on if there's a 
+    // cycle in the Linked List 
+    public static bool HasCycle(ListNode head)
+    {
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast != null && fast.Next != null) {
+            slow = slow.Next;
+            fast = fast.Next.Next;
+
+            if (slow == fast) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+}
+
+//Alternate way to solve using HashSet with Time Complexity: Constant O(n)  and Space Complexity: Constant O(n)
+
+public static bool HasCycleHashSet(ListNode head) 
+{
+    HashSet<ListNode> nodes = new ();
+    ListNode current = head;
+    while(current != null) {
+        if(nodes.Contains(current)) {
+            return true;
+        } else {
+            nodes.Add(current);
+        } 
+        current = current.Next; 
+    }
+    return false;
+}
+```
+
+# Tree Algorithms
+## What is a tree?
