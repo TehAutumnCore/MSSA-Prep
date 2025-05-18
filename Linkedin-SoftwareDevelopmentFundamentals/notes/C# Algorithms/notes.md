@@ -594,3 +594,82 @@ public static bool HasCycleHashSet(ListNode head)
 
 # Tree Algorithms
 ## What is a tree?
+A tree: A nonlinear data structure consisting of nodes, where each node can have multiple child nodes, forming different levels and paths. A collection of nodes connected by links.
+The root node: is the starting point of the tree, and it has no parent. Nodes connected to the root are called child nodes.
+A binary tree: is a specialized type of tree where each node has a maximum of two child nodes, which help in organizing data efficiently.
+A binary search tree: Adds an order constraint: the left child node must have a value less than its parent and the right child node must have a value greater than its parent, making data retrieval more efficient.
+    Best-case search time is O(log(n))
+    Worse-case search time is O(n)
+
+## Create a binary search tree in C#
+Binary Search Tree Structure: A binary search tree(BST) uses nodes with left and right references to organize data efficiently. Each node can have at most two child nodes.
+Node Class: The node class in C# for a BST includes attributes for left and right nodes and data, with get and set accessors.
+Insertion Algorithm: The video explains how to create an algorithm to insert data into a BST. The algorithm uses recursion to find the correct position for the new node based on its value relative to the root node.
+Recursion: Recursion is used to insert nodes, ensuring the BST properties are maintained. The algorithm checks if the root is null, and if not, it inserts the value on the left or right side based on its comparison with the root's value.
+
+## What are tree traversals?
+InOrder Traversal: Visits the left subtree first, then the root node, and finally the right subtree. This traversal is useful for binary search trees as it visits nodes in a sorted order.
+    inorder: explores data sequentially
+
+Pre-order Traversal: Visits the root node first, followed by the left subtree, and then the right subtree. This method is useful when you need to explore the root before inspecting the leaves.
+    Preorder: explores roots before leaves(nodes with no children)
+
+Post-order Traversal: Visits the left subtree first, then the first subtree, and finally the root node. This traversal is beneficial when you need to explore theh leaves before the root.
+    Postorder: explores leaves before roots
+
+## Using recursion to implement tree traversals in C#
+Tree traversal algorithms: The video explains three types of tree traversal algorithms: pre-order, in-order, and post-order, each vising nodes in a specific order.
+Recursion: Recursion is used to simplify the traversal process by repeatedly applying the same operation to subtrees.
+Implementation: The video demonstrates how to implement these traversals in C#, showing how to write and debug the code for each traversal type.
+
+## Code Challenge: Find height of binary tree
+Base Case: If the root of the tree is null, the height is zero.
+Recursive Calculation: If the root is not null, calculate the height of the left and right subtrees recursively.
+Total Height: The height of the tree is 1(for the root) plus the maximum height of the left and right subtrees.
+Time Complexity: The function takes O(n) time because it visits every node in teh tree to calculate the height.
+
+```Csharp
+//Code:
+// C# code​​​​​​‌‌​‌​‌​‌‌​‌​‌​‌​​​​‌​​​​‌ below
+using System;
+using System.Linq;
+// Write your answer here, and then test your code.
+// Your job is to implement the FindHeight() method.
+
+public class Answer {
+
+    // Change these Boolean values to control whether you see 
+    // the expected result and/or hints.
+   public static Boolean ShowExpectedResult = false;
+   public static Boolean ShowHints = false;
+
+   public class TreeNode
+   {
+        public int Val { get; set; }
+        public TreeNode Left { get; set; }
+        public TreeNode Right { get; set; }
+
+        public TreeNode(int val)
+        {
+            Val = val;
+        }
+    }
+
+    // Return the maximum depth of the binary tree
+    public static int FindHeight(TreeNode root)
+    {
+        // write code here
+        if(root == null) {
+            return 0;
+        }
+
+        int leftHeight = FindHeight(root.Left);
+        int rightHeight = FindHeight(root.Right);
+
+        // int height = 1 + Math.Max(leftHeight,rightHeight);
+        return leftHeight > rightHeight ? leftHeight + 1 : rightHeight +1;
+        // return height;
+    }
+
+}
+```

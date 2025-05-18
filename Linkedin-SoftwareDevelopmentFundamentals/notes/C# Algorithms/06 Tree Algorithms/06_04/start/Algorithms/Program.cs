@@ -11,10 +11,41 @@ namespace Algorithms {
         }
 
         class BinaryTree {
-
+            public static void preOrderTraversal(Node root)
+            {
+                if (root == null)
+                {
+                    return;
+                }
+                Console.WriteLine(root.Data + " "); //Root
+                preOrderTraversal(root.Left); //Left subtree
+                preOrderTraversal(root.Right); //right subtree
+            }
+            public static void inOrderTraversal(Node root)
+            {
+                if (root == null)
+                {
+                    return;
+                }
+                inOrderTraversal(root.Left); //;eft subtree
+                Console.WriteLine(root.Data + " "); //Root
+                inOrderTraversal(root.Right); //Right subtree
+            }
+            public static void postOrderTraversal(Node root)
+            {
+                if (root == null)
+                {
+                    return;
+                }
+                postOrderTraversal(root.Left); //left subtree
+                postOrderTraversal(root.Right); //right subtree
+                Console.WriteLine(root.Data + " "); //Root
+            }
+            
         }
 
-        static void Main(string[] args) {
+        static void Main(string[] args)
+        {
 
             //       4
             //    1     3
@@ -42,6 +73,15 @@ namespace Algorithms {
             nodeOne.Left = nodeEight;
             nodeOne.Right = nodeNine;
             nodeThree.Left = nodeSix;
+
+            BinaryTree.preOrderTraversal(rootNode);
+            Console.WriteLine();
+
+            BinaryTree.inOrderTraversal(rootNode);
+            Console.WriteLine();
+
+            BinaryTree.postOrderTraversal(rootNode);
+            Console.WriteLine();
         }
     }
 }
