@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/obj/Debug/net8.0/C#_Classes.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/obj/Debug/net8.0/C#_Classes.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/obj/Debug/net8.0/C#_Classes.AssemblyInfo.cs
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/obj/Debug/net8.0/C#_Classes.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/obj/Debug/net8.0/C#_Classes.sourcelink.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/bin/Debug/net8.0/C#_Classes
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/bin/Debug/net8.0/C#_Classes.deps.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/bin/Debug/net8.0/C#_Classes.runtimeconfig.json
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/bin/Debug/net8.0/C#_Classes.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/bin/Debug/net8.0/C#_Classes.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/obj/Debug/net8.0/C#_Classes.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/obj/Debug/net8.0/refint/C#_Classes.dll
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/obj/Debug/net8.0/C#_Classes.pdb
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/obj/Debug/net8.0/C#_Classes.genruntimeconfig.cache
+/home/desktop/MSSA-prep/Linkedin-SoftwareDevelopmentFundamentals/notes/LearningC#/C#_Classes/obj/Debug/net8.0/ref/C#_Classes.dll
