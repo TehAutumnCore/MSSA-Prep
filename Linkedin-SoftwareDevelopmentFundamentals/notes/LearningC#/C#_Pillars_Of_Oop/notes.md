@@ -3,7 +3,7 @@
 Encapsulation: Binding together pieces of code and keep it obscure to prevent outside changes
 
 ## Inheritance
-Inheritance: Basing one type(or clasS) on another type allowing us to re-use pre-written code.
+Inheritance: Basing one type(or class) on another type allowing us to re-use pre-written code.
 
 ## Polymorphism
 Polymorphism: Present the same type (or class) but the definitions of members perform differently
