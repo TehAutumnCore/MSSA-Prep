@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8I+5MwnhSCo=",
+  "success": true,
+  "projectFilePath": "/home/desktop/MSSA-prep/Leetcode DS&A Crash Course/NeetCode150/String_to_Integer/String_to_Integer.csproj",
+  "expectedPackageFiles": [
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.15/microsoft.netcore.app.host.linux-x64.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EOlfiWah1+I=",
+  "success": true,
+  "projectFilePath": "/home/desktop/MSSA-prep/Leetcode DS&A Crash Course/NeetCode150/Longest_Substring_Without_Repeating_Characters/Longest_Substring_Without_Repeating_Characters.csproj",
+  "expectedPackageFiles": [
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.15/microsoft.netcore.app.host.linux-x64.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
