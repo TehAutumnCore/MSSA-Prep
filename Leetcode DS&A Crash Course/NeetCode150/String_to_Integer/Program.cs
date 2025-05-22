@@ -69,8 +69,8 @@ Solution:
 */
 
 public class Solution {
-    public int MyAtoi(string s) {
-        int i = 0; //initalizing the index to start scanning the string
+    public int MyAtoi(string s) { 
+        int i = 0; // initalizing the index to start scanning the string
         int n = s.Length; //storing the length of the string for bounds checking
         int sign = 1; //default sign is positive
         int result = 0; //this will accumulate the parsed integer value
