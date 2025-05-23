@@ -1,0 +1,42 @@
+# Build artifacts and folders
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# VSCode settings and temporary files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+
+# Ignore all VSCode files except these config files above
+.vscode/*.code-workspace
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Object files and compiled libraries
+*.o
+*.obj
+*.so
+*.dll
+*.lib
+*.a
+
+# Backup files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Logs and reports
+*.log
+*.vs/
+
+# Mac specific files (if you happen to work on Mac)
+.DS_Store
