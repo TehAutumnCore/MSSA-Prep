@@ -3,8 +3,8 @@
 	"tasks": [
 		{
 			"type": "cppbuild", //tells VSCode this is a C++ build task
-			"label": "Build with GCC 14.3.0", //The name of the task shown in the UI or reference by launch.json
-			"command": "/home/desktop/gcc-14.3.0-install/bin/g++", //the compiler command (GNU C++ Compiler)
+			"label": "Build with GCC 11.2.0", //The name of the task shown in the UI or reference by launch.json
+			"command": "/usr/bin/g++", //the compiler command (GNU C++ Compiler)
 			"args": [
 			  "-fdiagnostics-color=always", //Adds color to compiler output
 			  "-g", //includes debug info in the executable(for dfb)
@@ -23,7 +23,7 @@
 				"kind": "build", //Marks this task as a build task
 				"isDefault": true //This is the default build task (an be run with Ctrl+Shift+B)
 			},
-			"detail": "compiler: /home/desktop/gcc-14.3.0-install/bin/g++" //Optional description shown in the UI
+			"detail": "compiler: /usr/bin/g++" //Optional description shown in the UI
 		}
 	]
 }
