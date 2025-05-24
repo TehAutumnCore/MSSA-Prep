@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/home/desktop/gcc-14.3.0-install/include/c++/14.3.0",
+        "/home/desktop/gcc-14.3.0-install/include/c++/14.3.0/x86_64-pc-linux-gnu",
+        "/usr/include"
+      ],
+      "defines": [],
+      "compilerPath": "/home/desktop/gcc-14.3.0-install/bin/g++",
+      "cStandard": "c17",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}
