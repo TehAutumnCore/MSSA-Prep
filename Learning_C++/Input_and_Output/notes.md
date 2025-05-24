@@ -1,6 +1,6 @@
 # Input and output
 
-Stream -> Purpose
+Stream -> Purpose <!-- Character referrs to the textual I/O, but it can mean Character or Console -->
 std::cout -> Printing data to the console(terminal) <!-- Character OUTput -->
 std::cin -> Reading data from the terminal <!-- Character INput -->
 std::cerr -> Printing errors to the console; unbuffered: output appears immediately <!-- character input, Character ERRor -->
@@ -24,5 +24,52 @@ int main(int argc, char **argv) {
     return 0;
 }
 
+//Printing Data
+
+//std::cout Printing stuff to the console
+std::cout << "Hello World!" << std::endl;
+
+std::cout << "The number is : " << 12 << std::endl;
+
+int age {21};
+std::cout << "The age is : " << 12 << std::endl;
+
+//Error
+std::cerr << "std::cerr output : Something went wrong" << std:endl;
+
+//Log message
+std::clog << "std::clog output : This is a log message" << std::endl;
+
+
+
+//Reading data in
+
+int age;
+std::string name;
+
+std::cout << "Please type in your Last Name : " << std::endl;
+std::cin >> name;
+
+
+std::cout << "Please type in your age : " << std::endl;
+std::cin >> age;
+
+std::cout << "Hello " << name << "! You are " << age << " years old" << std::endl;
+
+
+//Chaining std::cin
+
+int age;
+std::string name;
+
+std::cout << "Please type in your Last name and age, separated by spaces : " << std::endl;
+
+std::cin >> name >> age; //Input name and age
+
+std::cout << "Hello " << name << "! You are " << age << "years old." << std::endl;
+
+//getline when taking in input, best to use as it will include spaces
+std::string full_name;
+std::getline(std::cin, full_name);
 
 ```
