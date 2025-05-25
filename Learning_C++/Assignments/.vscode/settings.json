@@ -47,9 +47,7 @@
         "ctime": "cpp",
         "optional": "cpp",
         "format": "cpp",
-        "iomanip": "cpp",
         "span": "cpp",
-        "sstream": "cpp",
         "text_encoding": "cpp",
         "variant": "cpp"
     }

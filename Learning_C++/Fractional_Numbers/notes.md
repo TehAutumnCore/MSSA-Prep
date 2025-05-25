@@ -67,3 +67,5 @@ std::cout << number11 << "/" << number12 << "=" << result << std::endl;
 ```
 Remember the suffixes when initializing floating point variables otherwise the default will be a double
 Double works well in many situations, so you will see it used a lot.
+
+Use {} notation when defining variables especially when unsure if narrowing might occur
