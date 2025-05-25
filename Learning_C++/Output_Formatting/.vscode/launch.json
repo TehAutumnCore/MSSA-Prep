@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0", //launch configuration file
+    "configurations": [ //array of launch configurations
+        {
+      "name": "gdb launch", // Name of this launch configuration
+      "type": "cppdbg", //Debugger type: C++ debugger from microsoft extension
+      "request": "launch", //Launch type(start program)
+      "program": "${fileDirname}/${fileBasenameNoExtension}", //Program to run: executable matching current file name in current file's directory
+      "args": [], //Arguments to pass to the program(empty here)
+      "stopAtEntry": false, //Dont pause at program start; start immediately
+      "cwd": "${fileDirname}", //Current Working Directory: directory of current source file
+      "environment": [{ //Environment variables to set during debug session
+          "name": "LD_LIBRARY_PATH", //Name of environment variable to set
+          "value": "/home/desktop/gcc-14.3.0-install/lib64:${env:LD_LIBRARY_PATH}" //prepend custom library path for dynamic linker, append existing LD_LIBRARY_PATH
+        }],
+      "externalConsole": false, //Run program in integrated terminal, not external console window
+      "MIMode": "gdb", //Use GDB as the debugger backend
+      "setupCommands": [ //Commands run automatically when debugger starts
+        {
+          "description": "Enable pretty-printing for gdb", //Description of this setup command
+          "text": "-enable-pretty-printing", //Command to enable better STL container formatting in GDB
+          "ignoreFailures": true //Don't stop debugging if this command fails
+        }
+      ],
+      "preLaunchTask": "Build with GCC 14.3.0", //Task to run before starting debugger (build task defined in tasks.json)
+      "miDebuggerPath": "/usr/bin/gdb" //Full path to the GDB debugger executable
+    }
+    ]
+}
