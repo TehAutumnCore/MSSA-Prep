@@ -19,3 +19,8 @@ Setup: To use Git you need to install it from git-scm.com, and may also need a t
 Configuration: Use the gitconfig command to set up your username and email ensuring that your contributions are properly credited.
 Initialization: Initialize a Git repository in your project folder with the git init command. 
 Staging and Committing: Add files to the staging area using git add, and commit them with git commit -m "message" to create checkpoints you can return to later.
+
+## Understanding Git environments
+Commit Has: Each commit has a unique ID called a commit hash, which helps track changes. 
+Branches: Branches are alternate versions of your project, and the head points to the current branch you're working on. 
+File States: Files can be in three environments-- working directory, staging area, and commit history. They can also be tracked (unmodified, staged) or untracked.
