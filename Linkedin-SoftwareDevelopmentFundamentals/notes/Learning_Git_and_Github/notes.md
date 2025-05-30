@@ -147,3 +147,58 @@ Security Policy: Specifies security support and how to report vulnerabilities. C
 Contributing.md: Provides guidelines for contributing to the project, including accepted contributions and steps for creating issues.
 Support.md: Offers information on how to get support for the project. Can be placed in the root, docs, or .github folder.
 Code Owners Document: Lists individuals responsible for specific code sections, ensuring they review pull request and code changes.
+
+# GitHub Repos and Projects
+## Issues
+Creating Issues: You can create issues to discuss potential new features or problems in a project. Issues can include titles, descriptions, and sample code.
+Collaboration Tools: Use mentions, assignees, and labels to involve team members, and organize issues. Labels help categorize issues, and assignees ensure the right people are notified.
+Managing Issues: Issues can be tied to milestones and projects, making it easier to track progress. You can also filter and sort issues to manage them effectively.
+
+## Pull requests
+Creating Pull Requests: Pull requests allow users to propose changes to a project, which can then be reviewed and discussed before being merged.
+Editing and Committing Changes: you can edit files directly on GitHub, preview changes, and commit them either to the main branch or a new branch. 
+Review and Merge: Pull requests facilitate discussions about changes, allowing team members to comment and review before merging the changes into the main branch.
+Project Management Features: GitHub provides various project management tools like assigning reviewers, adding labels, creating milestones, and linking pull requests to issues.
+
+## Pull Request features
+Branch Comparison: You can compare different branches to see changes before, creating a pull request,  allowing flexibility in what you review. 
+Draft Pull Requests: These are placeholders for work-in-progress enabling discussions and feedback before the final review.
+Review Process: The video covers how to assign reviewers, comment on changes, and use toll slike GitGuardian for security checks. It also explains the different tabes(conversation, commits, checks, file changes) to track the review process.
+
+## Finishing your code review
+Resolving Changes: You can see comments from reviewers and make necessary changes to the code directly in the codespace.
+Using Codespaces: Codespaces allow you to edit and review code efficiently, showing comments and changes in real-time.
+Syncing Updates: After making changes, you need to commit and sync your updates with the repository to finalize the review process
+
+## Using a CODEOWNERS file
+Creating a CODEOWNNERS File: This file assigns specific users as owners of files or directories, ensuring they get notifications for changes.
+Branch Protection Rules: You can protect branches by requiring pull requests and approvals before merging changes.
+    a CODEOWNERS file and branch protection rules help set standards for how people are supposed to work with said project.
+Workflow Management: These features help standardize project workflows, ensuring proper reviews and updates are managed efficiently.
+
+## Organizing Projects
+Collaboration: GitHub allows you to invite collaborators to work on your project, enhancing teamwork, and collaboration.
+Issues and Labels: You can create issues to track tasks and use labels to categorize and prioritize them.
+Milestones and Projects: Milestones group issues ito goals, while projects provide an overview of progress, helping you manage and organize your work effectively.
+
+## Syncing GitHub
+*git clone*: This command copies a GitHub repository to your local hard drive
+*git fetch*: This command updates your local repository with informatino from the remote repository without merging any changes.
+*git pull*: This command combines *git fetch* and merges the changes from the remote repository into your local repository
+Branch Management: The video also covers how to manage branches, including creating new branches and switching between them
+Releases: It explains how ot create releases to provide specific versions of your project for others to use.
+
+## Repository insights
+The insights tab in GitHub provides detailed information about repository activity, including commits, pull requets, and traffic.
+Some features in the insights tab depend on whether the repository is private and the type of GitHub account (pro or enterprise).
+You can track contributors' activity code frequency, dependency graphs, and network interactions.
+The tab also includes community standards and traffic details, showing where visitors come from and how often the repository is cloned or viewed.
+
+## GitHub shortcut features
+*Question Mark (?)*: Pressing ? brings up a list of most shortcuts, which is context-sensitive based on your location in GitHub.
+*Slash (/)*: Typing / allows you to search within the current context, such as a repository.
+*Command Palette*: Accessed with Command + K on Mac or Control + K on Windows, it provides a powerful search and navigation tool similar to a code editor's command palette.
+*Period (.)*: Pressing . opens a lightweight editor, github.dev, for quick edits.
+*Navigation Shortcuts*: Keys like G + I for issues and G + P for pull requests help navigate without using the mouse.
+
+# GitHub Social and Publishing
