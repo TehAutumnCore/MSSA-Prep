@@ -9,6 +9,7 @@ Collaboration: Facilitates teamwork by allowing multiple devloper to work on the
 Types: of Version Control:
     Centralized: Stores all files and history on a central server(e.g.Apache subversion)
     Distributed: Developers keep copies of the project on their own workstations, making changes locally and then pushing updates to the main repository(e.g. Git.)
+    
 ## What is Git? 
 Version Control System: Git is a version control system that allows you to manage changes to files over time, acting like a historian with a time machine. 
 Commits: You can save checkpoints called commits, leaving messages about what happened at each checkpoint.
