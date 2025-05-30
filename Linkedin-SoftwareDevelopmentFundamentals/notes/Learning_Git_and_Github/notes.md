@@ -40,3 +40,18 @@ Renaming Files: Rename files using the git mv command, which stages the rename a
 using git diff: The git diff command shows differences between files, highlighting changes such as deletions and additions.
 Visual Studio Code Integration: Visual Studio Code provides a source control editor to visualize changes, making it easier to manage large changes.
 Comparing Commits: You can use git diff to compare different commits and git log --oneline to view a simplified commit history.
+
+## Changing History
+Amending commits: Use git commit --amend to modify the most recent commit. either by changing the commiit message or adding new changes> 
+Resetting Commits git reset allows you to move the project back to a previous commit, with options like --soft to keep staged or --hard to discard changes. 
+Rebasing git rebase lets you move or combine commits, effectively rewriting the commit history to make it cleaner and more logical.
+    Takes the commits from one branch and applies them to another. This can help maintain a clean project and project history.
+    if you shouldve made a change earlier in your commit history, you can use git rebase -i to move that commit to the correct place.
+Squash Commit: This combines the changes from one commit into the previous commit, but keeps both commit messages. Its useful for merging small, related changes into a single commit. 
+Fixup commit: Similar to squash, bunt it discards the commit message of the commit being combined. This is useful when you want to clean up your commit history without keeping unnecessary commit messages.
+
+## Branches:
+Creating branches: Branches allows you to create different versions of your code to experiment with new features without affecting hte stable version. Use git switch -c or the older git checkout -b to create a new branch.
+Switching and merging: Switch back to the main branch using git switch main and merge changes from your new branch with git merge <branch-name>
+delete the branch you no longer need with git branch -d <branch-name> to keep your repository clean.
+Git Flow: The typical workflow involves creating a new branch for features or fixes, making changes, merging back to the main branch, and then deleting the feature branch. This helps manage collaboration and maintain a clean project history.
