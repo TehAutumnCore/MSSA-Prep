@@ -202,3 +202,28 @@ The tab also includes community standards and traffic details, showing where vis
 *Navigation Shortcuts*: Keys like G + I for issues and G + P for pull requests help navigate without using the mouse.
 
 # GitHub Social and Publishing
+## GitHub notifications
+Purpose: GitHub Discussions are designed for conversation about your code that are not directly related to fixing issues.
+FeatureS: Discussions are threaded like issues but include additional features such as polls and the ability to categorize and pin discussions.
+Integration: You can convert a discussion into an issue if it evolves into a feature request or a problem that needs solving. 
+Management: Discussions can be managed by setting up categories, pinning important discussions, and using labels for better organization.
+
+## GitHub notifications
+Notification Venues: GitHub notifications can be checked on the website via email and through the mobile app.
+Customization: You can customize notifications at the repo level, choosing to be notified for specific activities or ignore them entirely.
+Settings: Notification settings can be adjusted to control how and when you receive updates, including options for email notifications, mobile alerts, and weekly digests.
+
+## GitHub gists
+Creating Gists: You can create new gists on gist.github.com or by using the shortcut gist.new. Gists can contain multiple files and support syntax highlighting based on file extensions.
+Public vs Secret: Gists can be either public or secret. Public gists are visible to everyone, while secret gists are only accessible via a direct link.
+Features: Gist allows you to share code snippets, track revisions, embed gists in HTML, download as ZIP files, and receive comments from others.
+
+## GitHub wikis
+Quick Documentation: GitHub wikis provide a fast way to create documentation attached to your repositorym using a full-featured editor that supports markdown.
+Organization: You can create multiple pages, add images, links, and even drag and drop files. The wiki automatically generates a structure for easy navigation.
+Customization: Wikis allow for custom footers and sidebars and you can clone the wiki repository to work on it locally.
+
+## GitHub pages
+Free Hosting: GitHub Pages allows you to host and publish static content for free, with options for custom domains and HTTPS enforcement.
+Deployment Options: You can deploy your site from a branch or using GitHub Actions. Deploying from a branch is simpler, while GitHub actions offers more customization.
+Customization: You can use Jekyll to convert, markdown documents into a website, and set up custom domains for your GitHub pages.
