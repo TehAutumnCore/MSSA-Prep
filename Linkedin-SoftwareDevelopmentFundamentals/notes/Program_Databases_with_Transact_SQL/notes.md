@@ -94,7 +94,6 @@ Preventing Errors: It ensures that structural changes to the underlying table, s
 Security Benefits: Using Schema binding and column aliases can mask the actual structure of the database from end users, end users, enhancing security by preventing unauthorized access to sensitive information.
 
 *WITH SCHEMABINDING*: Locks the view definition ot the schema of the underlying tables. Prevents changes to the structure of teh base tables unless the view is dropped first.
-
 *ALTER VIEW*: Modifies the definition of an existing view without dropping it. Commonly used to Add/Remove columns, add SCHEMABINDING, Update logic or column aliases
 *'AS ' Column Alias*(Quoted Alias): When using aliases with spaces or special characters, single quotes can be used in SQL Server.
 *EXEC sp_rename*" A system stored procedure used to rename tables, columns, indexes, or other database objects
@@ -135,6 +134,7 @@ nondeterminisitic if the result can vary, even with the same input
 *FORMAT(date,format_string)*: Returns a formatted string version of a date, number, etc. Format strings follow .NET style(like 'd', 'mmm ddm yyyy); often non-deterministic because the output may depend on language/locale settings
 
 ## Scalar-valued user-defined functions
+
 *CREATE FUNCTION*: Used to define a user-defined function(UDF)
 *@InputNumber, @Output*: Local variables are declared with @ and scoped to the function or batch.
 *SET*: Assigns a value to a variable
@@ -166,6 +166,7 @@ Stored Procedures: These can perform multiple tasks in a single routine, includi
 Naming Conventions: Use consistent prefixes like usp_ for user-stored procedures to help identify oibject types in code.
 Creation and Execution: Use the CREATE or ALTER command followed by the procedure name, actions, andd EXEC command to run it.
 Advantages: Stored procedures add an abstraction layer, enhancing security and making maintenance easier and can perform multiple actions in one command, improving performance.
+
 *CREATE OR ALTER PROCEDURE*: Creates a new stored procedure or modifies it if it already exists- similar to functions(CREATE OR ALTER FUNCTION)
 *PROCEDURE/PROC*: Defines a stored procedure - a reusable block of SQL Statements stored in the database.
 *EXECUTE/EXEC*: Runs a stored procedure. Can be followed by parameters if the procedure takes any.
@@ -180,6 +181,7 @@ Advantages: Stored procedures add an abstraction layer, enhancing security and m
 Input Parameters: Stored Procedures can include input parameters to alter their actions, making them flexible and dynamic.
 Data Modification: Unlike functions and views, stored procedures can write data to tables, not just return existing values.
 Creation Process: The video demonstrates creating a stored procedure that inserts a new row into a table, highlighting how to declare input parameters and use them within the procedure.
+
 *ParameterName(input parameter syntax)*: A way to define variables that are passed into a stored procedure or function. Used to customize procedure behaviour.
 *Declare(within a procedure)*: Allocates and initializes a local variable within the body of a stored procedure or batch.
 *SET(within a procedure)*: Assigns a value to a variable. In procedures, often used to prepare values before insertion or logic.
@@ -190,6 +192,7 @@ Creation Process: The video demonstrates creating a stored procedure that insert
 Output Parameters: Stored procedures can pass information back to the calling application using output parameters, which are useful for communicating success messages or status updates.
 Creation:When creating a stored procedure with an output parameter, you need to delcare the parameter with the OUTPUT keyword.
 Usage: The calling application must have a local variable to receive the output value and all commands (variable declaration, procedure execution, and value usage) needs to be executed together.
+
 *Output(parameter modifier)*: Used to indicate that a parameter can return a value back to the caller. Enables stored procedures to pass data back.
 *FORMAT (function)*: Formats date/time or number values into a readable string using a specified format. 
 
@@ -208,6 +211,7 @@ Example Scenario: Transferring money between bank accounts requires both deducti
 Begin Transaction: Use the BEGIN TRANSACTION command to start a transaction, optionally naming it for easier identification.
 Commands Within Transaction: Any commands executed after starting the transaction are part of a single unit of work, which can be committed or rolled back.
 Commit or Rollback: Use COMMIT to finalize changes or ROLLBACK to undo them, ensuring data consistency and preventing partial updates.
+
 *BEGIN TRANSACTION [name] [WITH MARK]*: Starts a new transaction block. WITH MARK can label the transaction for recovery purposes.
 *ROLLBACK TRANSACTION[name]*: Reverses all changes made in the current transaction, effectively undoing them.
 *COMMIT TRANSACTION[name]*: Saves all changes made in the current transaction to the database permanently.
@@ -234,8 +238,68 @@ Example: SET XACT_ABORT ON;
 
 # Implement Error Handling
 ## What is error handling?
-Definition: Error handling involves planning for potential errors and creating responses to handle them gracefully, ensuring that programs can continue running smoothly.
+Error handling involves planning for potential errors and creating responses to handle them gracefully, ensuring that programs can continue running smoothly.
 Purpose: It helps manage disruptions caused by both mechanical issues (like server or network problems) and human errors (like incorrect data types).
 Implementation: Error handling routines can reroute or interrupt the execution of a routine, allowing the system to attempt alternative actions or fix issues without failing completely.
 
 ## Capture errors with TRY and CATCH
+TRY and CATCH Blocks: These are used to handle errors in SQL Server. Code within the TRY block is executed, and if an error occurs, the CATCH block is executed.
+Error Information: Functions within the CATCH block can provide detailed error information, such as error number, message, and severity.
+Branching Logic: Using IF ELSE and CASE statements within the CATCH block allows for different responses based on the type of error encountered.
+
+*TRY...CATCH*:Used to handle errors in T-SQL by wrapping potentially failing code in a TRY block and responding to errors in a CATCH block.
+*ERROR_NUMBER()*:Returns the number of the error that caused the CATCH block to run.
+*ERROR_MESSAGE()*: Returns the complete text of the error message.
+*ERROR_SEVERITY()*: Returns the severity level of the error.
+*ERROR_STATE()*: Returns the state number of the error (useful for debugging).
+*ERROR_LINE()*: Returns the line number at which the error occurred.
+*ERROR_PROCEDURE()*: Returns the name of the stored procedure or trigger where the error occurred (if applicable).
+*XACT_STATE()*:Returns the current state of a user transaction:
+    1: Active
+    0: No active transaction
+    -1: Uncommittable transaction (must be rolled back)
+
+## Generate Errors with THROW
+Custom Error Messages: The THROW command allows you to create custom error messages that can be inserted anywhere in your SQL code.
+Error Handling: Using THROW within a TRY block transfers execution to the CATCH block, enabling you to handle errors gracefully.
+Re-throwing Errors: You can use THROW without arguments in a CATCH block to re-throw the last error encountered, providing flexibility in error management.
+
+*THROW*: Raises an exception in T-SQL. It can be used in two ways:
+
+## Manage Transaction control
+Combining Transactions with Error Handling: Integrate TRY and CATCH blocks with transactions to control when to commit or roll back changes based on errors.
+Rollback on Error: If an error occurs within the TRY block, the CATCH block executes a rollback to undo all changes, ensuring data consistency.
+Custom Error Messages: Use custom messages to inform users about the rollback and the reason for it, enhancing user experience and clarity.
+*ROLLBACK TRANSACTION*: Undoes all changes made in the current transaction and ends the
+
+# Data Type Conversions and NULLs
+## Implicit data type conversions
+Implicit Conversion: SQL Server automatically converts different data types to a compatible type when needed, but this can sometimes lead to ambiguous results.
+Explicit Conversion: Use the CONVERT and CAST functions to explicitly specify the desired data type, ensuring the correct operation is performed.
+Data Type Precedence: During implicit conversions, SQL Server elevates data types to a higher precedence type to avoid loss of precision. Understanding this precedence is crucial for accurate data handling.
+
+*CONVERT()*: Explicitly converts an expression from one data type to another.
+*CAST()*: Another way to explicitly convert a value from one data type to another, often more portable across databases than CONVERT().
+
+
+
+## Understand NULL values
+Meaning of NULL: NULL represents unknown, missing, or not knowable values, not zero or nothing.
+Comparison Impact: Comparing NULL values can lead to unexpected results, as NULL is not equal to any value, including another NULL.
+Best Practices: Avoid using NULLs when possible by providing default values that are easily recognizable and out of the range of real data.
+
+*DEFAULT*: Specifies a default value for a column when no value is provided during INSERT.
+
+
+
+## The ISNULL function
+SNULL Function: This function replaces NULL values with a specified replacement value, making data more consistent and easier to work with.
+Usage: ISNULL takes two arguments: the expression to evaluate and the replacement value if the expression is NULL.
+Performance Consideration: Using ISNULL in the JOIN or WHERE clauses can affect performance, so it's better to use it in the SELECT clause for large tables.
+
+*ISNULL()*: A function that replaces NULL with a specified replacement value.
+
+## Merge rows with COALESCE
+COALESCE Function: This function evaluates multiple expressions and returns the first non-NULL value, making it useful for handling and replacing NULL values.
+Multiple Expressions: Unlike ISNULL, COALESCE can take multiple expressions and evaluate them in sequence, providing more flexibility.
+Merging Data: COALESCE can merge values from multiple columns into a single column, reducing the number of NULL values and providing a more comprehensive dataset.
