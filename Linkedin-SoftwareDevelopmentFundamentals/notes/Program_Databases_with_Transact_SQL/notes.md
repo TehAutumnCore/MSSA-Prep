@@ -124,3 +124,118 @@ IDX_StockItemDetails is a typical naming pattern
 
 # Create User-Defined Functions
 ## Deterministic vs nondeterministic functions
+A function is deterministic if it always returns the same result when given the same input
+nondeterminisitic if the result can vary, even with the same input
+
+*GETDATE()*: Returns current date and time; non-deterministic
+*RAND()*: Returns a random float between 0 and 1; non-deterministic
+*MAX()*: Returns max; deterministic
+*MIN()*: Returns min; deterministic
+*AVG()*: Returns average; deterministic
+*FORMAT(date,format_string)*: Returns a formatted string version of a date, number, etc. Format strings follow .NET style(like 'd', 'mmm ddm yyyy); often non-deterministic because the output may depend on language/locale settings
+
+## Scalar-valued user-defined functions
+*CREATE FUNCTION*: Used to define a user-defined function(UDF)
+*@InputNumber, @Output*: Local variables are declared with @ and scoped to the function or batch.
+*SET*: Assigns a value to a variable
+*RETURN*: Used in functions to return a value to the caller.(required for scalar-valued functions)
+*PRINT*: Displays a message or scalar value in the console.(such as Console.WriteLine or print().)
+*DROP FUNCTION*: Deletes a user-defined function from the database
+*Scalar-Valued Function*: Returns a single scalar value(as opposed to a table-valued function which returns a set).
+
+## IF ELSE and CASE statements
+IF ELSE Statements: These are used to evaluate a condition and return on evalue if the condition is true and a different value if the condition is false. For example, determining if the number is even or odd.
+CASE Statements: These allow you to evaluate multiple conditions and return the first true condition's value. For example, checking if a day is a weekend or not.
+
+*CREATE OR ALTER FUNCTION*: Creates a function if it doesn't exist, or updates(alters)it if it does
+*IF...ELSE*: Used for conditional branching inside procedures and functions
+*Modulus*: Returns the remainder after division
+*CASE*: A SQL expression for conditional logic (similar to a switch or nested if/else)
+*CHAR(n)*: Fixed-Length character string type. (char(10) always stores 10 characters)
+
+## Table-valued user-defined functions
+Table-Valued Functions: Unlike scalar valued functions that return asingle value, table-valued functions return a result set made up of columns and rows, similar to a table.
+Input Parameters: Table-valued functions can include input parameters that modify the output mkaing them more flexible than views. 
+Creation Process: The process involves writing a SELECT statement, defining the function with input parameters, and using RETURN caluse to output the result set.
+
+*Table-Valued Function*: A function that returns a result set (table) rather than a single value.
+
+# Work with Stored Procedures
+## Write and execute a stored procedure
+Stored Procedures: These can perform multiple tasks in a single routine, including modifying data, unlike views or functions.
+Naming Conventions: Use consistent prefixes like usp_ for user-stored procedures to help identify oibject types in code.
+Creation and Execution: Use the CREATE or ALTER command followed by the procedure name, actions, andd EXEC command to run it.
+Advantages: Stored procedures add an abstraction layer, enhancing security and making maintenance easier and can perform multiple actions in one command, improving performance.
+*CREATE OR ALTER PROCEDURE*: Creates a new stored procedure or modifies it if it already exists- similar to functions(CREATE OR ALTER FUNCTION)
+*PROCEDURE/PROC*: Defines a stored procedure - a reusable block of SQL Statements stored in the database.
+*EXECUTE/EXEC*: Runs a stored procedure. Can be followed by parameters if the procedure takes any.
+*usp prefix/uspViewEmployees*: Conventionally means "user stored procedure". Not required, just common naming practice
+
+*Stored procedures*: uspProcedureName or usp_ProcedureName (user stored procedure)
+*SQL Server's built in procedures* use the sp_prefix(do not use, these are for built in)
+*Functions*: ufnFunctionName or fn_FunctionName 
+*views*: vViewName or vw_ViewName
+
+## Stored procedure input parameters
+Input Parameters: Stored Procedures can include input parameters to alter their actions, making them flexible and dynamic.
+Data Modification: Unlike functions and views, stored procedures can write data to tables, not just return existing values.
+Creation Process: The video demonstrates creating a stored procedure that inserts a new row into a table, highlighting how to declare input parameters and use them within the procedure.
+*ParameterName(input parameter syntax)*: A way to define variables that are passed into a stored procedure or function. Used to customize procedure behaviour.
+*Declare(within a procedure)*: Allocates and initializes a local variable within the body of a stored procedure or batch.
+*SET(within a procedure)*: Assigns a value to a variable. In procedures, often used to prepare values before insertion or logic.
+*INSERT INTO...VALUES*: Adds a new row to a table with the specified column values
+*DELETE FROM...WHERE*: Removes rows from a table that match a specified condition.
+
+## Stored procedure output parameters
+Output Parameters: Stored procedures can pass information back to the calling application using output parameters, which are useful for communicating success messages or status updates.
+Creation:When creating a stored procedure with an output parameter, you need to delcare the parameter with the OUTPUT keyword.
+Usage: The calling application must have a local variable to receive the output value and all commands (variable declaration, procedure execution, and value usage) needs to be executed together.
+*Output(parameter modifier)*: Used to indicate that a parameter can return a value back to the caller. Enables stored procedures to pass data back.
+*FORMAT (function)*: Formats date/time or number values into a readable string using a specified format. 
+
+## Create a database trigger
+Triggers: special stored procedures that automatically execute in response to specific events(e.g., insert, update, delete) on a table.
+Automation: Triggers can automate tasks such as logging changes to an audit table without manual intervention.
+Implementation: The video demonstrates creating a trigger that logs changes to a colors table into an audit table, showcasing how triggers can enhance database functionality and integrity.
+
+# Create Transactions
+## Ensure data Consistency with transactions
+Transactions: group multiple actions into a single unit of work to ensure all actions are completed successfully or none at all.
+Commit and Rollback: If all actions in a transaction succeed, the transaction is comited, permanently saving teh changes. If any action fails, the transaction is rolled back, undoing all changes to maintain data consistency.
+Example Scenario: Transferring money between bank accounts requires both deduction from one account and addition to another to be successful. If either action fails, the transaction is rolled back to prevent data inconsistency.
+
+## Create a transaction
+Begin Transaction: Use the BEGIN TRANSACTION command to start a transaction, optionally naming it for easier identification.
+Commands Within Transaction: Any commands executed after starting the transaction are part of a single unit of work, which can be committed or rolled back.
+Commit or Rollback: Use COMMIT to finalize changes or ROLLBACK to undo them, ensuring data consistency and preventing partial updates.
+*BEGIN TRANSACTION [name] [WITH MARK]*: Starts a new transaction block. WITH MARK can label the transaction for recovery purposes.
+*ROLLBACK TRANSACTION[name]*: Reverses all changes made in the current transaction, effectively undoing them.
+*COMMIT TRANSACTION[name]*: Saves all changes made in the current transaction to the database permanently.
+
+## Transaction savepoints
+Save Points: These allow you to roll back a portion of a transaction while committing other parts, providing more control over complex transactions.
+@@TRANCOUNT Variable: This system variable tracks the number of active transactions, helping manage nested transactions.
+Usage: Save points are created with the SAVE TRANSACTION command and can be referenced to roll back to specific points within a transaction, ensuring finer control over data modifications.
+
+*SAVE TRANSACTION [SavepointName]*: Creates a savepoint within a transaction that you can roll back to without rolling back the entire transaction.
+*ROLLBACK TRANSACTION [SavepointName]*: Reverts all changes made after the specified savepoint, but keeps the transaction open so you can still commit.
+*@@TRANCOUNT*:Returns the number of active transactions for the current session.
+
+## Automatically roll back transactions:
+Default Behavior: SQL Server does not automatically roll back transactions when an error occurs; only the failed command is not executed.
+XACT_ABORT Setting: Enabling XACT_ABORT ensures that the entire transaction is rolled back if any runtime error is encountered.
+Session-Specific: The XACT_ABORT setting applies only to the current session and resets to default (off) in new sessions.
+
+*SET XACT_ABORT ON | OFF*:Controls whether SQL Server automatically rolls back the entire transaction if a run-time error occurs.
+    ON: Rolls back the whole transaction on error.
+    OFF: Leaves the transaction open; manual rollback required.
+Example: SET XACT_ABORT ON;
+*@@OPTIONS*: Returns the current SET options active for the session as a bitmask. You can use it to check if specific options like XACT_ABORT are enabled.
+
+# Implement Error Handling
+## What is error handling?
+Definition: Error handling involves planning for potential errors and creating responses to handle them gracefully, ensuring that programs can continue running smoothly.
+Purpose: It helps manage disruptions caused by both mechanical issues (like server or network problems) and human errors (like incorrect data types).
+Implementation: Error handling routines can reroute or interrupt the execution of a routine, allowing the system to attempt alternative actions or fix issues without failing completely.
+
+## Capture errors with TRY and CATCH
