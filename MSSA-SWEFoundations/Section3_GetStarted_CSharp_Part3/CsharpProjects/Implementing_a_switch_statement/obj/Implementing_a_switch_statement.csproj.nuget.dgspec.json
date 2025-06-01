@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3:_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/Evaluate_Boolean_Expressions.csproj": {}
+    "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Implementing_a_switch_statement/Implementing_a_switch_statement.csproj": {}
   },
   "projects": {
-    "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3:_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/Evaluate_Boolean_Expressions.csproj": {
+    "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Implementing_a_switch_statement/Implementing_a_switch_statement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3:_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/Evaluate_Boolean_Expressions.csproj",
-        "projectName": "Evaluate_Boolean_Expressions",
-        "projectPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3:_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/Evaluate_Boolean_Expressions.csproj",
+        "projectUniqueName": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Implementing_a_switch_statement/Implementing_a_switch_statement.csproj",
+        "projectName": "Implementing_a_switch_statement",
+        "projectPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Implementing_a_switch_statement/Implementing_a_switch_statement.csproj",
         "packagesPath": "/home/desktop/.nuget/packages/",
-        "outputPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3:_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/obj/",
+        "outputPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Implementing_a_switch_statement/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/desktop/.nuget/NuGet/NuGet.Config"
@@ -53,6 +53,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

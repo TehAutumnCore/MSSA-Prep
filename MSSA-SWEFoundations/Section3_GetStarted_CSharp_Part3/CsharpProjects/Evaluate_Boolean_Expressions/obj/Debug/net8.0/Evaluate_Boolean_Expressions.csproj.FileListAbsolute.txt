@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/bin/Debug/net8.0/Evaluate_Boolean_Expressions
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/bin/Debug/net8.0/Evaluate_Boolean_Expressions.deps.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/bin/Debug/net8.0/Evaluate_Boolean_Expressions.runtimeconfig.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/bin/Debug/net8.0/Evaluate_Boolean_Expressions.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/bin/Debug/net8.0/Evaluate_Boolean_Expressions.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/obj/Debug/net8.0/Evaluate_Boolean_Expressions.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/obj/Debug/net8.0/Evaluate_Boolean_Expressions.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/obj/Debug/net8.0/Evaluate_Boolean_Expressions.AssemblyInfo.cs
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/obj/Debug/net8.0/Evaluate_Boolean_Expressions.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/obj/Debug/net8.0/Evaluate_Boolean_Expressions.sourcelink.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/obj/Debug/net8.0/Evaluate_Boolean_Expressions.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/obj/Debug/net8.0/refint/Evaluate_Boolean_Expressions.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/obj/Debug/net8.0/Evaluate_Boolean_Expressions.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/obj/Debug/net8.0/Evaluate_Boolean_Expressions.genruntimeconfig.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Evaluate_Boolean_Expressions/obj/Debug/net8.0/ref/Evaluate_Boolean_Expressions.dll

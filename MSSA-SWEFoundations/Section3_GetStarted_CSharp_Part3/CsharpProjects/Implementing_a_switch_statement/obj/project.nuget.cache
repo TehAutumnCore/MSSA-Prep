@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "k5d7Uheq8o8=",
+  "success": true,
+  "projectFilePath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/Implementing_a_switch_statement/Implementing_a_switch_statement.csproj",
+  "expectedPackageFiles": [
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.15/microsoft.netcore.app.host.linux-x64.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
