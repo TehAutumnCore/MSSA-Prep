@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Create_and_configure_for_iteration_loops/1.0.0": {
+        "runtime": {
+          "Create_and_configure_for_iteration_loops.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Create_and_configure_for_iteration_loops/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

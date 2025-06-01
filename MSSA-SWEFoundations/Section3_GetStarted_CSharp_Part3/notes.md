@@ -167,3 +167,80 @@ The default Case
 The default keyword creates an optional switch section that will execute if and only if no other case labels match the match_expression.
 Although it can be placed anywhere within the switch block, the default case is always evaluated last.
 By convention, the default case is placed at the end of the switch block for logical clarity and readability.
+
+
+# Create do and while iteration loops
+
+C# Iteration: do-while and while Loops
+This guide provides a reference for the do-while and while iteration statements in C#. These loops are ideal when the number of iterations is not known in advance and depends on conditions that can change within the loop's execution.
+
+The do-while Statement
+The do-while loop is defined by its core guarantee: the code block will always be executed at least once.
+
+Execution Flow: The code block inside the do { ... } is executed first. Then, the Boolean expression in the while (condition) is evaluated at the end of the block. If the condition is true, the loop repeats.
+Common Use Case: This loop is perfect for scenarios where an initial action must be performed before the condition can be tested. For example, getting user input or generating an initial random value that the loop's continuation depends on.
+Syntax: do { /* code to execute */ } while (condition);
+The while Statement
+The while loop evaluates its condition before executing the code block, acting as a "gate" that controls entry into the loop.
+
+Execution Flow: The Boolean expression in while (condition) is evaluated first. The code block only executes if the condition is true. After the block executes, the condition is checked again before the next iteration.
+Execution Count: A while loop executes zero or more times. If the condition is false initially, the code block will never run.
+Syntax: while (condition) { /* code to execute */ }
+Controlling Loop Flow: The continue Statement
+You can end the current iteration early and move directly to the next one using the continue keyword.
+
+Function: The continue statement immediately stops processing the current iteration and transfers control back to the loop's condition check.
+
+Behavior: It essentially says, "I'm done with this iteration, let's start the next one." Any code in the loop that comes after the continue statement is skipped for that specific iteration.
+
+For example, you could use if (current >= 8) continue; to avoid processing or printing numbers that are 8 or greater, while still allowing the loop to continue running until its exit condition is met.
+
+continue vs. break
+It's crucial to understand the difference between these two keywords inside a loop:
+
+continue: Skips the rest of the current iteration and proceeds to the next iteration of the loop.
+break: Terminates the entire loop immediately. Execution transfers to the first statement that follows the loop block.
+
+## Do vs While iteration statements
+
+Challenge Guide: Applying do-while and while Loops
+This document summarizes the key patterns and techniques for user input validation and data processing, as demonstrated in the challenge activity. The focus is on making the correct choice between a do-while and a while loop based on the problem's requirements.
+
+Core Principle: Choosing the Right Loop
+The fundamental difference to remember when choosing your loop is:
+
+do-while: Use when the loop body must execute at least once. The condition is checked after the first run.
+while: Use when the loop body might not need to execute at all. The condition is checked before each run, acting as a gate.
+Pattern 1: Validating User Input with do-while
+A do-while loop is the natural and most common choice for validating user input, because you always need to prompt the user and get their input at least once.
+
+Validating Numeric Input
+Safe Parsing with int.TryParse(): To prevent your application from crashing when a user enters non-numeric text (like "two"), use the int.TryParse() method. It is much safer than int.Parse().
+How it Works:
+It attempts to convert a string to an int.
+It returns a bool: true if the conversion was successful, false otherwise.
+It uses an out parameter to pass back the converted integer value.
+Syntax: bool success = int.TryParse(userInputString, out int numericResult);
+
+Validating String Input
+Nullable Strings (string?): It's good practice to read user input into a nullable string? variable, as Console.ReadLine() can return null.
+Normalizing Input: Before checking the user's string, always "normalize" it to accept a wider range of valid entries.
+Use the .Trim() method to remove accidental leading or trailing spaces.
+Use the .ToLower() (or .ToUpper()) method to perform case-insensitive comparisons.
+Pattern 2: Processing Data Conditionally with while
+When you need to repeatedly process parts of a larger data set (like sentences in a paragraph), a while loop is often a better fit. This is because you need to check if there is any data left to process before attempting to run the loop body.
+
+The challenge of extracting sentences from a string demonstrates this pattern:
+
+Check Condition First: Find the location of the first period (.).
+Enter Loop: Start a while loop that continues as long as a period is found (while (periodLocation != -1)).
+Process and Update: Inside the loop, extract the sentence, remove it from the original string, and then look for the next period to update the loop condition. If no more periods are found, the loop terminates correctly.
+Useful String Methods for Data Processing
+The challenges utilize several powerful string methods:
+
+.IndexOf(string): Returns the zero-based index of the first occurrence of a character or string. Returns -1 if not found.
+.Substring(startIndex, length): Extracts a new string from the original, starting at a specific index for a certain length.
+.Remove(startIndex): Removes all characters from a specified position to the end of the string.
+.TrimStart(): Removes all leading whitespace characters from the current string.
+
+##

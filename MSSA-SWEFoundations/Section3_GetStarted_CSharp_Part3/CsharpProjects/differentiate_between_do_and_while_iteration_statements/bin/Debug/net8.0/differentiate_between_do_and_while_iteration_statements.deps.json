@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "differentiate_between_do_and_while_iteration_statements/1.0.0": {
+        "runtime": {
+          "differentiate_between_do_and_while_iteration_statements.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "differentiate_between_do_and_while_iteration_statements/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
