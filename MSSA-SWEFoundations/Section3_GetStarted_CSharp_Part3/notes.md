@@ -242,5 +242,3 @@ The challenges utilize several powerful string methods:
 .Substring(startIndex, length): Extracts a new string from the original, starting at a specific index for a certain length.
 .Remove(startIndex): Removes all characters from a specified position to the end of the string.
 .TrimStart(): Removes all leading whitespace characters from the current string.
-
-##

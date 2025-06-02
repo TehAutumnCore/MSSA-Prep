@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/bin/Debug/net8.0/Work_with_variable_data
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/bin/Debug/net8.0/Work_with_variable_data.deps.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/bin/Debug/net8.0/Work_with_variable_data.runtimeconfig.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/bin/Debug/net8.0/Work_with_variable_data.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/bin/Debug/net8.0/Work_with_variable_data.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/obj/Debug/net8.0/Work_with_variable_data.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/obj/Debug/net8.0/Work_with_variable_data.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/obj/Debug/net8.0/Work_with_variable_data.AssemblyInfo.cs
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/obj/Debug/net8.0/Work_with_variable_data.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/obj/Debug/net8.0/Work_with_variable_data.sourcelink.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/obj/Debug/net8.0/Work_with_variable_data.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/obj/Debug/net8.0/refint/Work_with_variable_data.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/obj/Debug/net8.0/Work_with_variable_data.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/obj/Debug/net8.0/Work_with_variable_data.genruntimeconfig.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/Work_with_variable_data/obj/Debug/net8.0/ref/Work_with_variable_data.dll
