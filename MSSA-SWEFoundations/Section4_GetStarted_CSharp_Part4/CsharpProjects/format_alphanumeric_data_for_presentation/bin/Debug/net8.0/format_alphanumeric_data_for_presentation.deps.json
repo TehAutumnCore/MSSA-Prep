@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "format_alphanumeric_data_for_presentation/1.0.0": {
+        "runtime": {
+          "format_alphanumeric_data_for_presentation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "format_alphanumeric_data_for_presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

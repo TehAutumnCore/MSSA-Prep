@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3:_GetStarted_CSharp_Part3/CsharpProjects/TestProject/TestProject.csproj": {}
+    "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/TestProject.csproj": {}
   },
   "projects": {
-    "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3:_GetStarted_CSharp_Part3/CsharpProjects/TestProject/TestProject.csproj": {
+    "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3:_GetStarted_CSharp_Part3/CsharpProjects/TestProject/TestProject.csproj",
+        "projectUniqueName": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3:_GetStarted_CSharp_Part3/CsharpProjects/TestProject/TestProject.csproj",
+        "projectPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/TestProject.csproj",
         "packagesPath": "/home/desktop/.nuget/packages/",
-        "outputPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3:_GetStarted_CSharp_Part3/CsharpProjects/TestProject/obj/",
+        "outputPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/desktop/.nuget/NuGet/NuGet.Config"
@@ -53,6 +53,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

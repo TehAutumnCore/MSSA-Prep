@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Create_and_configure_for_iteration_loops")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a80c26fa9519014fd4d78a730e97415b4e186b46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ba4098235b38a0f9b6dab9a5dc235318c25dc61")]
 [assembly: System.Reflection.AssemblyProductAttribute("Create_and_configure_for_iteration_loops")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Create_and_configure_for_iteration_loops")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "IBjn5a5fg3s=",
+  "success": true,
+  "projectFilePath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/Final.csproj",
+  "expectedPackageFiles": [
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.15/microsoft.netcore.app.host.linux-x64.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

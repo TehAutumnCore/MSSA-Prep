@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Perform_operations_on_arrays_using_helper_methods/1.0.0": {
+        "runtime": {
+          "Perform_operations_on_arrays_using_helper_methods.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Perform_operations_on_arrays_using_helper_methods/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
