@@ -188,11 +188,45 @@ do
                     animalPhysicalDescription = readResult.ToLower();
                     if (animalPhysicalDescription == "")
                     {
-                        animalPhysicalDescription = "tbd"
+                        animalPhysicalDescription = "tbd";
                     }
                 }
             } while (animalPhysicalDescription == "");
 
+            //get a description of the pet's personality - animalPersonalityDescription can be blank
+            do {
+                Console.WriteLine("Enter a description of the pet's personality (likes or dislikes, tricks, energy level)");
+                readResult = Console.ReadLine();
+                if (readResult != null) {
+                    animalPersonalityDescription = readResult.ToLower();
+                    if (animalPersonalityDescription == "")
+                    {
+                        animalPersonalityDescription = "tbd";
+                    }
+                }
+            } while (animalPersonalityDescription == "");
+
+            //get the pet's nickname. animalNickname can be blank
+            do {
+                Console.WriteLine("Enter a nickname for the pet");
+                readResult = Console.ReadLine();
+                if (readResult != null) {
+                    animalNickname = readResult.ToLower();
+                    if (animalNickname == "")
+                    {
+                        animalNickname = "tbd";
+                    }
+                }
+            } while (animalNickname == "");
+
+            //store the pet information in the ourAnimals array(zero based)
+            ourAnimals[petCount, 0] =  "ID #: " + animalID;
+            ourAnimals[petCount, 1] =  "Species: " + animalSpecies;
+            ourAnimals[petCount, 2] =  "Age: " + animalAge;
+            ourAnimals[petCount, 3] =  "Nickname: " + animalNickname;
+            ourAnimals[petCount, 4] =  "Physical description: " + animalPhysicalDescription;
+            ourAnimals[petCount, 5] =  "Personality: " + animalPersonalityDescription;
+            
             while (anotherPet == "y" && petCount < maxPets)
             {
                 //increment petCount (the array is zero-based, so we increment the counter after adding to the array)
