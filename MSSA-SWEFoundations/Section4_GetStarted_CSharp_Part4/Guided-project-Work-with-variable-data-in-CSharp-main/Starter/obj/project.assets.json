@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/guided_project/guided_project.csproj",
-      "projectName": "guided_project",
-      "projectPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/guided_project/guided_project.csproj",
+      "projectUniqueName": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/Starter.csproj",
+      "projectName": "Starter",
+      "projectPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/Starter.csproj",
       "packagesPath": "/home/desktop/.nuget/packages/",
-      "outputPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/guided_project/obj/",
+      "outputPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/Guided-project-Work-with-variable-data-in-CSharp-main/Starter/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/desktop/.nuget/NuGet/NuGet.Config"
