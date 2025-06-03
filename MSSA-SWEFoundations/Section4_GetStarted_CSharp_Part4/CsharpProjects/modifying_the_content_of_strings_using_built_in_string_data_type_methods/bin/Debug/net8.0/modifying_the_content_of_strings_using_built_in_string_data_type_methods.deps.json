@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "modifying_the_content_of_strings_using_built_in_string_data_type_methods/1.0.0": {
+        "runtime": {
+          "modifying_the_content_of_strings_using_built_in_string_data_type_methods.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "modifying_the_content_of_strings_using_built_in_string_data_type_methods/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
