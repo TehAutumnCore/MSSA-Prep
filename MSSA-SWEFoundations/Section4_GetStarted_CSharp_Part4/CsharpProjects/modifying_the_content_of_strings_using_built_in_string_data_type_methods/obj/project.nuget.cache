@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "C3fjYHmdtKc=",
+  "success": true,
+  "projectFilePath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/CsharpProjects/modifying_the_content_of_strings_using_built_in_string_data_type_methods/modifying_the_content_of_strings_using_built_in_string_data_type_methods.csproj",
+  "expectedPackageFiles": [
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.15/microsoft.netcore.app.host.linux-x64.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
