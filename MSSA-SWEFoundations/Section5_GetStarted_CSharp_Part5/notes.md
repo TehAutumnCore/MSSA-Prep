@@ -44,4 +44,47 @@ Parameter Names:
 Should accurately describe the information the parameter represents.
 For example, (string month, int day, int year) is much clearer than (string a, int b, int c).
 
-#
+#Of course. Here is a summary of the provided text on creating C# methods that return values, formatted in the README.md style.
+
+C# Methods that Return Values
+This guide provides a reference for creating methods that perform operations and then return a resulting value to the code that called them.
+
+Defining a Method with a Return Type
+To create a method that returns a value, you specify the data type in the method signature, right before the method's name.
+
+Return Type: Can be any data type, such as int, string, bool, or even an array. This is different from void, which specifies that the method returns nothing.
+Compiler Rule: A method with a non-void return type must use the return keyword to send back a value of that exact type. The compiler will produce an error if there is any possible code path through the method that doesn't end with a return statement.
+Example Signature:
+double GetDiscountedPrice(int itemIndex)
+
+The return Keyword
+The return keyword is used to exit the method and send a value back to the caller. It is very flexible and can be used with different kinds of values.
+
+What Can You Return? The return keyword can be followed by:
+
+A variable: return result;
+A literal value: return 50.0;
+An expression: The expression is evaluated first, and its result is returned. This allows for more concise code.
+return items[itemIndex] * (1 - discounts[itemIndex]);
+
+The result of another method call:
+return input.ToString().Substring(0, 5);
+
+return in void methods: You can also use return; (without a value) in a void method to terminate its execution early.
+
+Capturing and Using Return Values
+The real power of returning methods is that the calling code can "capture" the returned value and use it immediately. This makes code more modular, organized, and readable.
+
+A returned value can be used in many ways:
+
+Assign it to a variable:
+double finalPrice = GetDiscountedPrice(i);
+
+Use it directly in a mathematical operation:
+total += GetDiscountedPrice(i);
+
+Use it as the condition for an if statement or ternary operator:
+if (TotalMeetsMinimum()) { ... }
+
+Pass it as an argument to another method:
+Console.WriteLine($"Total: ${FormatDecimal(total)}");
