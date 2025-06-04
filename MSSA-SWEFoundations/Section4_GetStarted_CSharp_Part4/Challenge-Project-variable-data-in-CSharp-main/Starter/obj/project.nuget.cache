@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZXpaCrTfZU0=",
+  "success": true,
+  "projectFilePath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section4_GetStarted_CSharp_Part4/Challenge-Project-variable-data-in-CSharp-main/Starter/Starter.csproj",
+  "expectedPackageFiles": [
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.15/microsoft.netcore.app.host.linux-x64.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
