@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/bin/Debug/net8.0/guided_project
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/bin/Debug/net8.0/guided_project.deps.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/bin/Debug/net8.0/guided_project.runtimeconfig.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/bin/Debug/net8.0/guided_project.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/bin/Debug/net8.0/guided_project.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/obj/Debug/net8.0/guided_project.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/obj/Debug/net8.0/guided_project.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/obj/Debug/net8.0/guided_project.AssemblyInfo.cs
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/obj/Debug/net8.0/guided_project.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/obj/Debug/net8.0/guided_project.sourcelink.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/obj/Debug/net8.0/guided_project.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/obj/Debug/net8.0/refint/guided_project.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/obj/Debug/net8.0/guided_project.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/obj/Debug/net8.0/guided_project.genruntimeconfig.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/guided_project/obj/Debug/net8.0/ref/guided_project.dll
