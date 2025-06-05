@@ -1,0 +1,5 @@
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfo.cs
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.sourcelink.json

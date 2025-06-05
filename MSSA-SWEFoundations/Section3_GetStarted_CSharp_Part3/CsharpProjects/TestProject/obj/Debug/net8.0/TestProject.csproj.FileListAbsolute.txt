@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.deps.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.runtimeconfig.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfo.cs
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.sourcelink.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/obj/Debug/net8.0/refint/TestProject.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/CsharpProjects/TestProject/obj/Debug/net8.0/ref/TestProject.dll

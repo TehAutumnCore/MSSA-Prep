@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/code_debugging_and_exception_handling/code_debugging_and_exception_handling.csproj",
-      "projectName": "code_debugging_and_exception_handling",
-      "projectPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/code_debugging_and_exception_handling/code_debugging_and_exception_handling.csproj",
+      "projectUniqueName": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/Debug101.csproj",
+      "projectName": "Debug101",
+      "projectPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/Debug101.csproj",
       "packagesPath": "/home/desktop/.nuget/packages/",
-      "outputPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/code_debugging_and_exception_handling/obj/",
+      "outputPath": "/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/desktop/.nuget/NuGet/NuGet.Config"

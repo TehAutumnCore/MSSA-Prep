@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/bin/Debug/net8.0/Debug101
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/bin/Debug/net8.0/Debug101.deps.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/bin/Debug/net8.0/Debug101.runtimeconfig.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/bin/Debug/net8.0/Debug101.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/bin/Debug/net8.0/Debug101.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/obj/Debug/net8.0/Debug101.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/obj/Debug/net8.0/Debug101.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/obj/Debug/net8.0/Debug101.AssemblyInfo.cs
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/obj/Debug/net8.0/Debug101.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/obj/Debug/net8.0/Debug101.sourcelink.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/obj/Debug/net8.0/Debug101.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/obj/Debug/net8.0/refint/Debug101.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/obj/Debug/net8.0/Debug101.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/obj/Debug/net8.0/Debug101.genruntimeconfig.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Debug101/obj/Debug/net8.0/ref/Debug101.dll

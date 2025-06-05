@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/bin/Debug/net8.0/Final
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/bin/Debug/net8.0/Final.deps.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/bin/Debug/net8.0/Final.runtimeconfig.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/bin/Debug/net8.0/Final.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/bin/Debug/net8.0/Final.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/obj/Debug/net8.0/Final.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/obj/Debug/net8.0/Final.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/obj/Debug/net8.0/Final.AssemblyInfo.cs
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/obj/Debug/net8.0/Final.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/obj/Debug/net8.0/Final.sourcelink.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/obj/Debug/net8.0/Final.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/obj/Debug/net8.0/refint/Final.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/obj/Debug/net8.0/Final.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/obj/Debug/net8.0/Final.genruntimeconfig.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section3_GetStarted_CSharp_Part3/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/obj/Debug/net8.0/ref/Final.dll
