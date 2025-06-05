@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/bin/Debug/net6.0/Starter
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/bin/Debug/net6.0/Starter.deps.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/bin/Debug/net6.0/Starter.runtimeconfig.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/bin/Debug/net6.0/Starter.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/bin/Debug/net6.0/Starter.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/obj/Debug/net6.0/Starter.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/obj/Debug/net6.0/Starter.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/obj/Debug/net6.0/Starter.AssemblyInfo.cs
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/obj/Debug/net6.0/Starter.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/obj/Debug/net6.0/Starter.sourcelink.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/obj/Debug/net6.0/Starter.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/obj/Debug/net6.0/refint/Starter.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/obj/Debug/net6.0/Starter.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/obj/Debug/net6.0/Starter.genruntimeconfig.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section5_GetStarted_CSharp_Part5/Challenge-project-Create-methods-in-CSharp-main/Starter/obj/Debug/net6.0/ref/Starter.dll
