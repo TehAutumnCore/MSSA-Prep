@@ -19,7 +19,7 @@ expected.
 
 
 string? readResult = null;
-bool useTestData = false;
+bool useTestData = true;
 
 Console.Clear();
 
@@ -106,7 +106,7 @@ do
 
 static void LoadTillEachMorning(int[,] registerDailyStartingCash, int[] cashTill)
 {
-    cashTill[0] = registerDailyStartingCash[0, 1];
+    cashTill[0] = registerDailyStartingCash[0, 1]; //0
     cashTill[1] = registerDailyStartingCash[1, 1];
     cashTill[2] = registerDailyStartingCash[2, 1];
     cashTill[3] = registerDailyStartingCash[3, 1];
@@ -128,21 +128,21 @@ static void MakeChange(int cost, int[] cashTill, int twenties, int tens = 0, int
 
     Console.WriteLine("Cashier prepares the following change:");
 
-    while ((changeNeeded > 19) && (cashTill[3] > 0))
+    while ((changeNeeded >= 20) && (cashTill[3] > 0))
     {
         cashTill[3]--;
         changeNeeded -= 20;
         Console.WriteLine("\t A twenty");
     }
 
-    while ((changeNeeded > 9) && (cashTill[2] > 0))
+    while ((changeNeeded >= 10) && (cashTill[2] > 0))
     {
         cashTill[2]--;
         changeNeeded -= 10;
         Console.WriteLine("\t A ten");
     }
 
-    while ((changeNeeded > 4) && (cashTill[1] > 0))
+    while ((changeNeeded >= 5) && (cashTill[1] > 0))
     {
         cashTill[1]--;
         changeNeeded -= 5;
