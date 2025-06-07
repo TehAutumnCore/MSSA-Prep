@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter.deps.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter.runtimeconfig.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfo.cs
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.sourcelink.json
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/refint/Starter.dll
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.pdb
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.genruntimeconfig.cache
+/home/desktop/MSSA-prep/MSSA-SWEFoundations/Section6_GetStarted_CSharp_Part6/Guided-project-debugging-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/ref/Starter.dll
