@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bofokPeTe34=",
+  "success": true,
+  "projectFilePath": "/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/OOP_and_Interfaces.csproj",
+  "expectedPackageFiles": [
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/desktop/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.15/microsoft.netcore.app.host.linux-x64.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

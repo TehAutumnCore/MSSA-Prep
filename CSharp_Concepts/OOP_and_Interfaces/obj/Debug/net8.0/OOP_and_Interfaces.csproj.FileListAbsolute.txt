@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/obj/Debug/net8.0/OOP_and_Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/obj/Debug/net8.0/OOP_and_Interfaces.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/obj/Debug/net8.0/OOP_and_Interfaces.AssemblyInfo.cs
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/obj/Debug/net8.0/OOP_and_Interfaces.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/obj/Debug/net8.0/OOP_and_Interfaces.sourcelink.json
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/bin/Debug/net8.0/OOP_and_Interfaces
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/bin/Debug/net8.0/OOP_and_Interfaces.deps.json
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/bin/Debug/net8.0/OOP_and_Interfaces.runtimeconfig.json
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/bin/Debug/net8.0/OOP_and_Interfaces.dll
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/bin/Debug/net8.0/OOP_and_Interfaces.pdb
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/obj/Debug/net8.0/OOP_and_Interfaces.dll
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/obj/Debug/net8.0/refint/OOP_and_Interfaces.dll
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/obj/Debug/net8.0/OOP_and_Interfaces.pdb
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/obj/Debug/net8.0/OOP_and_Interfaces.genruntimeconfig.cache
+/home/desktop/MSSA-prep/CSharp_Concepts/OOP_and_Interfaces/obj/Debug/net8.0/ref/OOP_and_Interfaces.dll
