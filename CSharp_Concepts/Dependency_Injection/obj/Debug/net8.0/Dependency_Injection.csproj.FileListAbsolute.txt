@@ -1,0 +1,15 @@
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/obj/Debug/net8.0/Dependency_Injection.GeneratedMSBuildEditorConfig.editorconfig
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/obj/Debug/net8.0/Dependency_Injection.AssemblyInfoInputs.cache
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/obj/Debug/net8.0/Dependency_Injection.AssemblyInfo.cs
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/obj/Debug/net8.0/Dependency_Injection.csproj.CoreCompileInputs.cache
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/obj/Debug/net8.0/Dependency_Injection.sourcelink.json
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/bin/Debug/net8.0/Dependency_Injection
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/bin/Debug/net8.0/Dependency_Injection.deps.json
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/bin/Debug/net8.0/Dependency_Injection.runtimeconfig.json
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/bin/Debug/net8.0/Dependency_Injection.dll
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/bin/Debug/net8.0/Dependency_Injection.pdb
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/obj/Debug/net8.0/Dependency_Injection.dll
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/obj/Debug/net8.0/refint/Dependency_Injection.dll
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/obj/Debug/net8.0/Dependency_Injection.pdb
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/obj/Debug/net8.0/Dependency_Injection.genruntimeconfig.cache
+/home/desktop/MSSA-prep/CSharp_Concepts/Dependency_Injection/obj/Debug/net8.0/ref/Dependency_Injection.dll
