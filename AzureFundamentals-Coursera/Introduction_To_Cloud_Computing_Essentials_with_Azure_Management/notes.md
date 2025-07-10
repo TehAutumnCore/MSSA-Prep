@@ -33,7 +33,7 @@ Cloud Computing is the delivery of computing services over the internet, allowin
 - Review practice questions and take practice exams to test your knowledge.
 
 ### Course Introduction: Essentials with Azure fundamentals
-Defintion of Cloud Computing: Understanding what cloud computing is and its core principles
-Benefits: Exploring the advantages of using cloud services, such as scalability, cost-effectiveness, and flexibility
-Cloud Models: Overview of different cloud computing models (Iaas, PaaS, SaaS) and their applications in real-world scenarios
-Security Measures: Introduction to essential cloud security practices to protect data and resources.
+*Defintion of Cloud Computing*: Understanding what cloud computing is and its core principles
+*Benefits*: Exploring the advantages of using cloud services, such as scalability, cost-effectiveness, and flexibility
+*Cloud Models*: Overview of different cloud computing models (Iaas, PaaS, SaaS) and their applications in real-world scenarios
+*Security Measures*: Introduction to essential cloud security practices to protect data and resources
