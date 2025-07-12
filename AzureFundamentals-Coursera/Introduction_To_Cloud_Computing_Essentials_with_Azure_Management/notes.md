@@ -12,7 +12,7 @@ Cloud Computing is the delivery of computing services over the internet, allowin
 2. *Core Azure Services include*:
 - Azure Compute: Virtual Machines, App Services, Azure Functions
 - Azure Storage: Blob Storage, File Storage, Queue Storage
-- Azure Networking: Virtual Networks, VPN Gateway, Azure DNS.
+- Azure Networking: Virtual Networks, VPN Gateway, Azure DNS
 
 3. *Azure Management and Governance*:
 - Understand Azure Resource Manager (ARM) and how it helps manage resources.
