@@ -27,7 +27,7 @@ Cloud Computing is the delivery of computing services over the internet, allowin
 - Understand the support optinos available in Azure. 
 
 6. *Monitor and Reporting*:
-- Get to know Azure Monitor and Azure Log Analytics for monitoring resources.
+- Get to know Azure Monitor and Azure Log Analytics for monitoring resources
 
 7. *Exam Preparation*: 
 - Review practice questions and take practice exams to test your knowledge.
