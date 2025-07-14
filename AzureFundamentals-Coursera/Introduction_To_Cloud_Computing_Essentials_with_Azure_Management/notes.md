@@ -15,7 +15,7 @@ Cloud Computing is the delivery of computing services over the internet, allowin
 - Azure Networking: Virtual Networks, VPN Gateway, Azure DNS
 
 3. *Azure Management and Governance*:
-- Understand Azure Resource Manager (ARM) and how it helps manage resources.
+- Understand Azure Resource Manager (ARM) and how it helps manage resources
 - Learn about Azure Policy and Azure Blueprints for governance.
 
 4. *Security and Compliance*:
