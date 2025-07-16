@@ -30,7 +30,7 @@ Cloud Computing is the delivery of computing services over the internet, allowin
 - Get to know Azure Monitor and Azure Log Analytics for monitoring resources
 
 7. *Exam Preparation*: 
-- Review practice questions and take practice exams to test your knowledge.
+- Review practice questions and take practice exams to test your knowledge
 
 ### Course Introduction: Essentials with Azure fundamentals
 *Defintion of Cloud Computing*: Understanding what cloud computing is and its core principles
