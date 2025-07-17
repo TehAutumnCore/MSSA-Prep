@@ -3,7 +3,7 @@
 ## Introduction to Cloud Computing Essentials with Azure Management
 
 ### Program Introduction:
-Cloud Computing is the delivery of computing services over the internet, allowing for users to access and store data and applications on remote servers instead of local computers.
+Cloud Computing is the delivery of computing services over the internet, allowing for users to access and store data and applications on remote servers instead of local computers
 
 1. *Basics of Cloud Computing*: 
 - Understand what cloud computing is and its benefits
