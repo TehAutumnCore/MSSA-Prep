@@ -32,6 +32,7 @@ Cloud Computing is the delivery of computing services over the internet, allowin
 7. *Exam Preparation*: 
 - Review practice questions and take practice exams to test your knowledge
 
+
 ### Course Introduction: Essentials with Azure fundamentals
 *Defintion of Cloud Computing*: Understanding what cloud computing is and its core principles
 *Benefits*: Exploring the advantages of using cloud services, such as scalability, cost-effectiveness, and flexibility
