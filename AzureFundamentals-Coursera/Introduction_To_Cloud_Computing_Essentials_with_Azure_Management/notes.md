@@ -29,6 +29,7 @@ Cloud Computing is the delivery of computing services over the internet, allowin
 - Learn about Azure pricing models and Azure Pricing Calculator
 - Understand the support optinos available in Azure
 
+
 6. *Monitor and Reporting*:
 - Get to know Azure Monitor and Azure Log Analytics for monitoring resources
 
