@@ -21,6 +21,7 @@ Cloud Computing is the delivery of computing services over the internet, allowin
 - Understand Azure Resource Manager (ARM) and how it helps manage resources
 - Learn about Azure Policy and Azure Blueprints for governance
 
+
 4. *Security and Compliance*:
 - Familiarize yourself with Azure security features, such as Azure Security Center and Azure Active Directory
 - Understand compliance offerings and how Azure meets various regulatory requirements
