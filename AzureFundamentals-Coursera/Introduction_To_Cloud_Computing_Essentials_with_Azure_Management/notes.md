@@ -6,6 +6,7 @@
 Cloud Computing is the delivery of computing services over the internet, allowing for users to access and store data and applications on remote servers instead of local computers
 
 
+
 1. *Basics of Cloud Computing*: 
 - Understand what cloud computing is and its benefits
 - Familiarize yourself with different cloud service models: IaaS, PaaS, and SaaS
