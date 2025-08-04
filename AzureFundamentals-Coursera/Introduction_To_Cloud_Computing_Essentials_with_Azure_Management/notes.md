@@ -10,7 +10,6 @@ Cloud Computing is the delivery of computing services over the internet, allowin
 - Understand what cloud computing is and its benefits
 - Familiarize yourself with different cloud service models: IaaS, PaaS, and SaaS
 
-
 2. *Core Azure Services include*:
 - Azure Compute: Virtual Machines, App Services, Azure Functions
 - Azure Storage: Blob Storage, File Storage, Queue Storage
