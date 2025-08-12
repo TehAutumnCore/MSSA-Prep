@@ -22,7 +22,6 @@ Cloud Computing is the delivery of computing services over the internet, allowin
 - Familiarize yourself with Azure security features, such as Azure Security Center and Azure Active Directory
 - Understand compliance offerings and how Azure meets various regulatory requirements
 
-
 5. *Pricing and Support*:
 - Learn about Azure pricing models and Azure Pricing Calculator
 - Understand the support optinos available in Azure
